@@ -1,0 +1,11 @@
+@import "vars";
+
+.notification {
+  padding: 1rem;
+  background: #C93C3C;
+  width: 100%;
+}
+
+.notification.warn { background: #F09C26; color: #000000; }
+.notification.success { background: #24850C; color: white; }
+.notification.error { color: white; }

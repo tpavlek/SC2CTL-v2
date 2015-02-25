@@ -1,4 +1,4 @@
-<?php namespace App\Http\Middleware;
+<?php namespace Depotwarehouse\SC2CTL\Web\Http\Middleware;
 
 use Closure;
 use Illuminate\Contracts\Auth\Guard;

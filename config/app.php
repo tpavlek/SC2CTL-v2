@@ -130,7 +130,6 @@ return [
 		'Illuminate\Pipeline\PipelineServiceProvider',
 		'Illuminate\Queue\QueueServiceProvider',
 		'Illuminate\Redis\RedisServiceProvider',
-		'Illuminate\Auth\Passwords\PasswordResetServiceProvider',
 		'Illuminate\Session\SessionServiceProvider',
 		'Illuminate\Translation\TranslationServiceProvider',
 		'Illuminate\Validation\ValidationServiceProvider',
@@ -139,11 +138,11 @@ return [
 		/*
 		 * Application Service Providers...
 		 */
-		'App\Providers\AppServiceProvider',
-		'App\Providers\BusServiceProvider',
-		'App\Providers\ConfigServiceProvider',
-		'App\Providers\EventServiceProvider',
-		'App\Providers\RouteServiceProvider',
+		'Depotwarehouse\SC2CTL\Web\Providers\AppServiceProvider',
+		'Depotwarehouse\SC2CTL\Web\Providers\BusServiceProvider',
+		'Depotwarehouse\SC2CTL\Web\Providers\ConfigServiceProvider',
+		'Depotwarehouse\SC2CTL\Web\Providers\EventServiceProvider',
+		'Depotwarehouse\SC2CTL\Web\Providers\RouteServiceProvider',
 
 	],
 

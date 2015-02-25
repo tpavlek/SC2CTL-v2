@@ -1,4 +1,4 @@
-<?php namespace App;
+<?php namespace Depotwarehouse\SC2CTL\Web;
 
 use Illuminate\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;

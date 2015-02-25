@@ -1,0 +1,455 @@
+@import "forms";
+@import "vars";
+@import "headers";
+@import "user";
+@import "notifications";
+
+html, body { height: 100%; }
+
+body { line-height: 1.6em; background: $default-background-color; }
+$sidebar-width: 15rem;
+
+header.navigation {
+  text-align: center;
+  background-image: url('/img/bg/black_paper.png');
+  color: #f5f5f5;
+
+  ul {
+    padding: 0;
+  }
+
+  li {
+    a, input[type=submit] {
+      margin: 0 auto;
+      padding: 0.5rem 25px 0.5rem 45px;
+      display: block;
+      text-decoration: none;
+      font-size:150%;
+      color: #f5f5f5;
+      background: none;
+      border: none;
+    }
+    input[type=submit]:focus {
+      outline: 0;
+      border: none;
+    }
+    a:hover { border-bottom: 3px ; }
+  }
+
+  li:hover { background: $highlight-color;  cursor: pointer; }
+
+
+  h1 { margin: 0; padding: 0.67em; background: darken($nav-background-color, 10%) }
+  h3 {
+    margin-bottom: 0;
+    padding: 0 25px 0 45px;
+    color:#FFDB05;
+  }
+
+}
+
+.content-wrapper {
+  height: 100%;
+}
+
+div.splash {
+  position: relative;
+  min-height: $splash-height-percentage;
+  background-color: #000;
+
+  .content {
+    $left-padding: 10%;
+    text-align: center;
+    position:absolute;
+    width: 80%;
+    padding-left: $left-padding;
+
+    height:100%;
+
+    h1 {
+      display: none;
+    }
+
+    p { color: $splash-foreground-color; font-size: 150%; line-height: 1.5em;}
+
+    .buttons {
+      padding-left: $left-padding;
+      position:absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
+
+    .button {
+      @extend .button.xlarge;
+      @extend .inverted-button
+    }
+
+  }
+
+}
+
+div.splash:before {
+  content: "";
+  position:absolute;
+  left: 0;
+  right: 0;
+
+  display: block;
+  background-image: $splash-image-url;
+  background-size: cover;
+  opacity: 0.8;
+  filter: alpha(opacity=40);
+  height:100%;
+  background-color: #000;
+}
+
+.section {
+  padding: 2rem;
+
+}
+
+.content-wrapper section.section:nth-of-type(1) {
+  text-align: center;
+  background: $highlight-secondary-color;
+  p { color: black; font-size: 150%; line-height: 1.5em; padding-left: 10%; padding-right: 10%; }
+
+}
+
+.content-wrapper section.section:nth-of-type(2) {
+  $background-color: $section-2-color;
+  background: $background-color;
+  color: darken( $background-color, 40%);
+}
+
+.team-info-grid {
+  position:relative;
+  height:100%;
+}
+
+.team-info-col {
+  height:100%;
+}
+
+.team-info-panel {
+  height:100%;
+  background-color: $section-1-color;
+}
+
+.team-info {
+  padding: 1rem;
+}
+
+.image-header {
+  position:relative;
+
+  .team-banner img {
+    width: 100%;
+  }
+
+  .team-logo img {
+    position: absolute;
+    left: 3%;
+    bottom: -20px;
+  }
+}
+
+.team-lineups {
+  overflow-y: auto;
+  height:100%;
+  background: $section-2-color;
+}
+
+.error-img { width: 100%; }
+
+/* Our timeline style */
+
+.timeline {
+  position: relative;
+  padding: 2em 0;
+  margin-top: 2em;
+  margin-bottom: 2em;
+
+  .block {
+    margin-bottom: 1rem;
+
+    .content {
+      position:relative;
+      background: $default-background-color;
+      padding: 1rem;
+      border-radius: 3px;
+      box-shadow: darken(#81BFE6, 20%);
+      width: 80%;
+
+      .date {
+        color: darken(#81BFE6, 20%);
+        font-size: 120%;
+      }
+      p {
+        word-wrap: break-word;
+      }
+    }
+
+    /* The small arrow pointer beside each block */
+    .content::before {
+      content: '';
+      position: absolute;
+      border: 7px solid transparent;
+      height: 0;
+      width: 0;
+    }
+
+    .img-container {
+      position: absolute;
+      border-radius: 50%;
+      width: 30px;
+      height: 30px;
+      margin-left: -13px;
+      background: #9C41D1;
+      box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+
+      img {
+        display: block;
+        width: 24px;
+        height: 24px;
+        position: relative;
+        left: 50%;
+        top: 50%;
+        margin-left: -12px;
+        margin-top: -12px;
+      }
+    }
+
+    .img-container.start { background: $highlight-secondary-color; }
+    .img-container.wait { background: #E8E81C; }
+    .img-container.video { background: #D9273C; }
+  }
+}
+
+/* our vertical line */
+.timeline::before {
+  content: '';
+  position:absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 4px;
+  background: $default-background-color;
+}
+
+div.call-to-action {
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background: $highlight-color;
+
+  .title {
+    color: #f5f5f5;
+    font-size: 300%;
+  }
+
+  h2.call-to-action {
+    font-size: 250%;
+    color: black;
+  }
+
+  .button {
+    color: black;
+    background-color: $default-background-color;
+  }
+
+  .button:hover {
+    background-color: darken($default-background-color, 20%);
+  }
+}
+
+h2.tease {
+  margin-top: 6rem;
+  text-align: center;
+  font-size: 300%;
+  font-weight: bold;
+  line-height: 1em;
+}
+
+div.sponsor, div.contact {
+  img {
+    width: 90%;
+  }
+}
+
+div.logo-img {
+  float:left;
+  margin-right: 1rem;
+}
+
+div.team-profile-card {
+  background: black;
+  display: inline-block;
+  min-width:30rem;
+  padding:0.5rem;
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
+
+  .primary-name {
+    color: whitesmoke;
+    font-size:200%;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+
+  .secondary-name {
+    font-size: 140%;
+    color: darken(whitesmoke, 5%);
+    display: block;
+  }
+
+}
+
+@media only screen and (max-width: 70rem) {
+  .timeline {
+    .block {
+      /* so the image lines up with the pointer on responsive site */
+      .img-container {
+         margin-top: 0.5rem;
+      }
+      .content {
+        margin-left: 3rem;
+
+      }
+      .content::before {
+        left: auto;
+        right: 100%;
+        border-left: none;
+        border-right: 7px solid white;
+      }
+    }
+  }
+}
+
+
+@media only screen and (min-width: 70rem) {
+
+  header.navigation {
+    text-align: left;
+    width: $sidebar-width;
+    position:fixed;
+    left: 0;
+    top: 0;
+    height:100%;
+
+    ul {
+      padding: 0;
+    }
+
+    li {
+      input[type=submit] {
+        margin: 0;
+      }
+      a {
+        padding: 0.5rem 25px 0.5rem 45px;
+        display: block;
+        text-decoration: none;
+        font-size:150%;
+        color: #f5f5f5;
+      }
+      a:hover { border-bottom: 3px ; }
+    }
+
+    li:hover { background: $highlight-color;  cursor: pointer; }
+
+
+    h1 { margin: 0; padding: 0.67em; background: darken($nav-background-color, 10%) }
+    h3 {
+      margin-bottom: 0;
+      padding: 0 25px 0 45px;
+      color:#FFDB05;
+    }
+  }
+
+  div.content-wrapper {
+    margin-top: auto;
+    padding-left: $sidebar-width;
+  }
+
+  div.splash {
+    .content {
+      width: 60%;
+      padding-left: 20%;
+      h1 {
+        //display: block;
+        font-size:600%;
+        color: $splash-foreground-color;
+      }
+
+      .buttons {
+        padding-left: $sidebar-width;
+      }
+
+      p {
+        display: none;
+      }
+
+    }
+  }
+
+  .timeline {
+    .block {
+      .content {
+        width: 40%;
+
+        .date {
+          width: 100%;
+          position: absolute;
+          left: 130%;
+          top: 1rem;
+        }
+      }
+
+      .content::before {
+        border-left: 7px solid white;
+        top: 24px;
+        left: 100%;
+      }
+
+      .img-container {
+        left: 50%;
+        margin-left: -28px;
+        width: 60px;
+        height: 60px;
+      }
+    }
+
+    .block:nth-child(even) {
+      .content {
+        float: right;
+
+        .date {
+          left: auto;
+          right: 130%;
+          text-align: right;
+        }
+      }
+
+      .content::before {
+        left: auto;
+        right: 100%;
+        border-left: none;
+        border-right: 7px solid white;
+      }
+    }
+  }
+
+  .timeline::before {
+    left: 50%;
+  }
+
+  /* we clear the floats after each block, so that sizes are proper */
+  .block::after {
+    content: '';
+    display: table;
+    clear:both;
+  }
+}
+
+

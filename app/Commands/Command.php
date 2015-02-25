@@ -1,4 +1,4 @@
-<?php namespace App\Commands;
+<?php namespace Depotwarehouse\SC2CTL\Web\Commands;
 
 abstract class Command {
 

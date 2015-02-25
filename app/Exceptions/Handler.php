@@ -1,4 +1,4 @@
-<?php namespace App\Exceptions;
+<?php namespace Depotwarehouse\SC2CTL\Web\Exceptions;
 
 use Exception;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;

@@ -1,4 +1,4 @@
-<?php namespace App\Http\Controllers;
+<?php namespace Depotwarehouse\SC2CTL\Web\Http\Controllers;
 
 class WelcomeController extends Controller {
 
