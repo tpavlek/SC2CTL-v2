@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "722f8ff646ef886f042a1e213cd8d338",
+    "hash": "1983dfbefda09ea0867a93c1ee7d9987",
     "packages": [
         {
             "name": "barryvdh/laravel-ide-helper",
@@ -187,16 +187,16 @@
         },
         {
             "name": "depotwarehouse/oauth2-bnet",
-            "version": "1.1.2",
+            "version": "2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tpavlek/oauth2-bnet.git",
-                "reference": "cc2727b49536569a67132fb862733915bd48d2a3"
+                "reference": "f941ab01e26a0ce1185bf3996ab01f2d3106f183"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tpavlek/oauth2-bnet/zipball/cc2727b49536569a67132fb862733915bd48d2a3",
-                "reference": "cc2727b49536569a67132fb862733915bd48d2a3",
+                "url": "https://api.github.com/repos/tpavlek/oauth2-bnet/zipball/f941ab01e26a0ce1185bf3996ab01f2d3106f183",
+                "reference": "f941ab01e26a0ce1185bf3996ab01f2d3106f183",
                 "shasum": ""
             },
             "require": {
@@ -229,7 +229,7 @@
                 }
             ],
             "description": "A Battle.net provider for league/oauth2-client",
-            "time": "2015-01-12 22:06:30"
+            "time": "2015-02-26 21:46:55"
         },
         {
             "name": "depotwarehouse/toolbox",

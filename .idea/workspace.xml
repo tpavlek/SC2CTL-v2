@@ -25,14 +25,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PasswordReminderRepository.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Model/User/PasswordReminderRepository.php">
+      <file leaf-file-name="composer.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7346939" vertical-offset="54" max-vertical-offset="1188">
-              <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
-              <folding>
-                <element signature="e#56#123#0#PHP" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.33908948" vertical-offset="0" max-vertical-offset="990">
+              <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -49,7 +47,6 @@
         <option value="$PROJECT_DIR$/app/ViewComposers/ErrorPartialComposer.php" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
-        <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/resources/views/login/login.blade.php" />
         <option value="$PROJECT_DIR$/app/Model/User/UserValidator.php" />
         <option value="$PROJECT_DIR$/app/Model/User/Eloquent/User.php" />
@@ -88,6 +85,7 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/ReminderController.php" />
         <option value="$PROJECT_DIR$/app/Model/User/Eloquent/PasswordReminderRepository.php" />
         <option value="$PROJECT_DIR$/app/Model/User/PasswordReminderRepository.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
       </list>
     </option>
   </component>
@@ -766,7 +764,7 @@
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3389662" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3389662" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32902583" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -835,14 +833,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.16564417" vertical-offset="0" max-vertical-offset="1116">
           <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27820712" vertical-offset="0" max-vertical-offset="954">
-          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
           <folding />
         </state>
       </provider>
@@ -1390,8 +1380,25 @@
         <state vertical-scroll-proportion="0.7346939" vertical-offset="54" max-vertical-offset="1188">
           <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
           <folding>
-            <element signature="e#56#123#0#PHP" expanded="true" />
+            <marker date="1424992252616" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1424992252616" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424992252616" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424992252616" expanded="true" signature="-1:-1" placeholder=" Generates a unique token to send in an email. ..." />
+            <marker date="1424992252616" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424992252616" expanded="true" signature="-1:-1" placeholder=" Creates a new PasswordReminder in the database. ..." />
+            <marker date="1424992252616" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424992252616" expanded="true" signature="-1:-1" placeholder=" Finds a password reminder by it's token. ..." />
+            <marker date="1424992252616" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424992252616" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33908948" vertical-offset="0" max-vertical-offset="990">
+          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>
