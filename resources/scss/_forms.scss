@@ -1,12 +1,9 @@
 @import "vars";
-@import "pure/all";
 
 .button, .pure-form .button {
-  @extend .pure-button;
-  color: #f5f5f5;
+  @include box-sizing(border-box);
   text-transform: uppercase;
   text-decoration: none;
-  background: $primary-color;
   font-size: 115%;
   font-weight: bold;
   letter-spacing: 1px;
@@ -14,20 +11,26 @@
   border-radius: 0;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
+  border: 0;
+  padding: 0.75rem 3rem;
+  line-height: normal;
+  display: inline-block;
 }
 
 .inverted-button {
   @extend .button;
   display: inline-block;
   background: none;
-  border: 2px solid $nav-button-color;
+  border: 2px solid white;
   color: #f5f5f5;
 }
 
 .inverted-button:hover {
-  background: $nav-button-color;
+  background: $inverted-button-background-color;
 }
 
+.button.primary, .button { background: $button-primary-background-color; color: $button-primary-foreground-color; }
+.button.primary:hover, .button:hover { background: darken($button-primary-background-color, 20%); }
 .button.success { background: green; }
 .button.success:hover { background: darken(green, 5%); }
 .button.cancel { background: #949494; color:white; }
@@ -35,6 +38,10 @@
 .button.twitter { background: #9AE4E8; color: black; }
 .button.facebook { background: #3D62B3; color: white; }
 .button.gplus { background: #D34836; color:white; }
+.inverted-button { background: none; border: 2px solid $inverted-button-background-color; color: $inverted-button-foreground-color; }
+.inverted-button:hover { background: $inverted-button-background-color; color: black; }
+.button.action { background: white; color: black }
+.button.action:hover { background: darken(white, 10%); }
 
 $bad-color: rgb(202, 60, 60);
 .button.bad { background: $bad-color; color: white; }
@@ -44,16 +51,22 @@ $secondary-color: rgb(95, 198, 218);
 .button.secondary { background: $secondary-color; }
 .button.secondary:hover { background: darken($secondary-color, 5%); }
 
+
+
 .pure-button-orange { background: rgb(223, 117, 20); }
 .pure-button-brown { background: #7C4316; color:white;}
-.pure-button-small { font-size: 79%; margin: 0; }
 
 
+.button.small { font-size: 79%; margin: 0; padding-left: 1rem; padding-right: 1rem; padding-top: 0.5rem; padding-bottom: 0.5rem; }
 .button.large { font-size:125%; }
 .button.xlarge { font-size: 150%; }
 .button.massive { font-size: 200%; }
 
+/** Sometimes we want an inline form that's just a button (eg. Deleting), so we declare a class for inline-forms */
+.inline-form { display: inline-block; }
+
 .pure-form {
+
   font-family: 'Merriweather Sans', sans-serif;
   .pure-control-group { margin-top: 0.5em; margin-bottom: 0.5em; }
   .form-label { color: grey; text-transform: uppercase; font-weight: bold; letter-spacing: 1px; }
@@ -117,11 +130,10 @@ $secondary-color: rgb(95, 198, 218);
 }
 
 .select2-arrow {
-    background: none !important;
-    border-left: none !important;
+  background: none !important;
+  border-left: none !important;
 }
 
 option {
-    text-transform: none;
+  text-transform: none;
 }
-

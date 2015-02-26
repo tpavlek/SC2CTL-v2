@@ -1,36 +1,70 @@
-<?php namespace Depotwarehouse\SC2CTL\Web\Http\Controllers;
+<?php
 
-class HomeController extends Controller {
+namespace Depotwarehouse\SC2CTL\Web\Http\Controllers;
 
-	/*
-	|--------------------------------------------------------------------------
-	| Home Controller
-	|--------------------------------------------------------------------------
-	|
-	| This controller renders your application's "dashboard" for users that
-	| are authenticated. Of course, you are free to change or remove the
-	| controller as you wish. It is just here to get your app started!
-	|
-	*/
+use Redirect;
+use View;
 
-	/**
-	 * Create a new controller instance.
-	 *
-	 * @return void
-	 */
-	public function __construct()
-	{
-		$this->middleware('auth');
-	}
+class HomeController extends Controller
+{
 
-	/**
-	 * Show the application dashboard to the user.
-	 *
-	 * @return Response
-	 */
-	public function index()
-	{
-		return view('home');
-	}
+
+    /**
+     * Show the application dashboard to the user.
+     *
+     * @return \Illuminate\Http\RedirectResponse
+     */
+    public function index()
+    {
+        return Redirect::route('home.about');
+        //return View::make('index');
+    }
+
+    /**
+     * @return \Illuminate\View\View
+     */
+    public function about()
+    {
+        return View::make('about');
+    }
+
+    /**
+     * @return \Illuminate\View\View
+     */
+    public function contact()
+    {
+        return View::make('contact');
+    }
+
+    /**
+     * @return \Illuminate\View\View
+     */
+    public function format()
+    {
+        return View::make('format');
+    }
+
+    /**
+     * @return \Illuminate\View\View
+     */
+    public function rules()
+    {
+        return View::make('rules');
+    }
+
+    /**
+     * @return \Illuminate\View\View
+     */
+    public function help()
+    {
+        return View::make('help');
+    }
+
+    /**
+     * @return \Illuminate\View\View
+     */
+    public function sponsors() {
+        return View::make('sponsors');
+    }
 
 }

@@ -1,3 +1,11 @@
+@mixin box-sizing( $type: border-box ) {
+  -webkit-box-sizing: $type;
+  -moz-box-sizing: $type;
+  -o-box-sizing: $type;
+  -ms-box-sizing: $type;
+  box-sizing: $type;
+}
+
 $primary-color: #0066FF;
 $highlight-color: #DE6C3C;
 $nav-button-color: $highlight-color;

@@ -1,16 +1,21 @@
-var elixir = require('laravel-elixir');
+// npm install --save-dev deprecated gulp gulp-autoprefixer gulp-concat gulp-minify gulp-minify-css gulp-sass gulp-util vinyl-fs
 
-/*
- |--------------------------------------------------------------------------
- | Elixir Asset Management
- |--------------------------------------------------------------------------
- |
- | Elixir provides a clean, fluent API for defining some basic Gulp tasks
- | for your Laravel application. By default, we are compiling the Less
- | file for our application, as well as publishing vendor resources.
- |
- */
+var gulp = require('gulp');
+var autoprefix = require('gulp-autoprefixer');
+var concat = require('gulp-concat');
+var minifyCSS = require('gulp-minify-css');
+var sass = require('gulp-sass');
 
-elixir(function(mix) {
-    mix.less('app.less');
+gulp.task('styles', function() {
+    return gulp.src([
+        'resources/css/pure-min.css',
+        'resources/css/grids-responsive-min.css',
+        'resources/css/fonts.css',
+        'resources/scss/style.scss'
+    ])
+        .pipe(sass({ style: "expanded" }))
+        .pipe(concat('all.css'))
+        .pipe(autoprefix('last 2 versions'))
+        .pipe(minifyCSS({ aggressiveMerging: false }))
+        .pipe(gulp.dest('./public/css/'))
 });
