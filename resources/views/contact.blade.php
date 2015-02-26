@@ -16,10 +16,10 @@ Contact an Adult
 			or just say hello. Don't be afraid to use them liberally - I love you guys. I am ebonwumon on
 			reddit.
 		</p>
-		<a href="http://reddit.com/r/sc2ctl" class="button">
+		<a href="http://reddit.com/r/sc2ctl" class="button brown">
 			Reddit
 		</a>
-		<a href="mailto:adult@sc2ctl.com" class="button">
+		<a href="mailto:adult@sc2ctl.com" class="button secondary">
 			Email
 		</a>
 		<a href="https://www.facebook.com/SC2CTL" class="button facebook">

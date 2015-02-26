@@ -42,6 +42,8 @@
 .inverted-button:hover { background: $inverted-button-background-color; color: black; }
 .button.action { background: white; color: black }
 .button.action:hover { background: darken(white, 10%); }
+.button.brown { background: #7C4316; color:white; }
+.button.brown:hover { background: darken(#7C4316, 10%); }
 
 $bad-color: rgb(202, 60, 60);
 .button.bad { background: $bad-color; color: white; }
@@ -54,7 +56,6 @@ $secondary-color: rgb(95, 198, 218);
 
 
 .pure-button-orange { background: rgb(223, 117, 20); }
-.pure-button-brown { background: #7C4316; color:white;}
 
 
 .button.small { font-size: 79%; margin: 0; padding-left: 1rem; padding-right: 1rem; padding-top: 0.5rem; padding-bottom: 0.5rem; }
@@ -76,6 +77,12 @@ $secondary-color: rgb(95, 198, 218);
   /* removes the fuzzyness on the outside of submit buttons */
   input.button {
     box-shadow: none;
+  }
+
+  /** Cancel links are just a slight out of place compared to submit buttons, so we push down a couple px */
+  .pure-controls a {
+    position: relative;
+    top: 2px;
   }
 
   input[type=text],

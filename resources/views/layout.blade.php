@@ -36,9 +36,9 @@
                                 </a>
                             </li>
                             <li>
-                                {{ Form::open([ 'route' => 'user.logout', 'method' => 'POST', 'class' => '' ]) }}
+                                {!! Form::open([ 'route' => 'user.logout', 'method' => 'POST', 'class' => '' ]) !!}
                                     <input type="submit" value="Log Out" />
-                                {{ Form::close() }}
+                                {!! Form::close() !!}
                             </li>
                         @else
                             <li>

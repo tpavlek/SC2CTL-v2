@@ -10,8 +10,8 @@ About the League
     <div class="content">
         <div class="buttons">
             @if (Auth::check())
-                <a href="{{ URL::route('team.create') }}" class="button">
-                    Register a Team
+                <a href="{{ URL::route('home.contact') }}" class="button">
+                    Connect with us
                 </a>
             @else
                 <a href="{{ URL::route('user.register') }}" class="button">
@@ -28,10 +28,16 @@ About the League
 
 <section class="section">
     <p>
-        The SC2CTL is designed as the premier, community-oriented team league. From the ground up, the league was
+        The SC2CTL was designed as the premier, community-oriented team league. From the ground up, the league was
         designed for maximum participation of those involved, while not forgetting the joy that can be found from being
-        determined as the sole winner. League seasons are long and maximize the amount of play every team gets before
+        determined as the sole winner. League seasons were long to maximize the amount of play every team gets before
         being eliminated.
+    </p>
+
+    <p>
+        Now, SC2CTL operates like a community league that might be down the street from your house; we organize fun
+        and unique events and help our members achieve their potential in every way we can. We're here because we
+        love Starcraft.
     </p>
 
 </section>
@@ -211,6 +217,21 @@ About the League
                     The team is back for another year of hosting Youmacon pulling in the likes of Winter and DesRow
                 </p>
                 <span class="date">November 3, 2014</span>
+            </div>
+        </div>
+
+        <div class="block">
+            <div class="img-container question">
+                <img src="/img/icon/question-man.svg" />
+            </div>
+
+            <div class="content">
+                <h2>SC2CTL Jeopardy</h2>
+                <p>
+                    In an extreme change of pace, SC2CTL hosted the first Starcraft 2 game show, in a Jeopardy-style
+                    format.
+                </p>
+                <span class="date">March 3, 2015</span>
             </div>
         </div>
 

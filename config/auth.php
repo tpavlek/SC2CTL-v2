@@ -28,7 +28,7 @@ return [
 	|
 	*/
 
-	'model' => 'Depotwarehouse\SC2CTL\Web\User',
+	'model' => \Depotwarehouse\SC2CTL\Web\Model\User\Eloquent\User::class,
 
 	/*
 	|--------------------------------------------------------------------------

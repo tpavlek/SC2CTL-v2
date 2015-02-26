@@ -12,15 +12,15 @@ Login
         then you can <a href="{{ URL::route('home.contact') }}">Contact Us</a> and we'll get you sorted.
     </p>
 
-    {{ Form::open([ 'route' => 'user.auth', 'method' => 'POST', 'class' => "pure-form pure-form-aligned" ]) }}
+    {!! Form::open([ 'route' => 'user.auth', 'method' => 'POST', 'class' => "pure-form pure-form-aligned" ]) !!}
         <div class="pure-control-group">
-            {{ Form::label('email') }}
-            {{ Form::text('email') }}
+            {!! Form::label('email') !!}
+            {!! Form::text('email') !!}
         </div>
 
         <div class="pure-control-group">
-            {{ Form::label('password') }}
-            {{ Form::password('password') }}
+            {!! Form::label('password') !!}
+            {!! Form::password('password') !!}
         </div>
 
         <div class="pure-controls">
@@ -29,7 +29,7 @@ Login
                 Reset Password
             </a>
         </div>
-    {{ Form::close() }}
+    {!! Form::close() !!}
     <br />
 </div>
 

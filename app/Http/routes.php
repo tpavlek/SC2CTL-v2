@@ -2,6 +2,7 @@
 
 Route::group([ 'namespace' => 'Auth' ], function() {
     Route::get('login', [ 'as' => 'user.login', 'uses' => 'AuthController@login' ]);
+    Route::post('logout', [ 'as' => 'user.logout', 'uses' => 'AuthController@logout' ]);
     Route::post('auth', [ 'as' => 'user.auth', 'uses' => 'AuthController@auth' ]);
     Route::get('register', [ 'as' => 'user.register', 'uses' => 'AuthController@register' ]);
     Route::get('login/reset/begin', [ 'as' => 'reminder.start_reset', 'uses' => 'ReminderController@start_reset' ]);
@@ -13,7 +14,7 @@ Route::group([ 'namespace' => 'Auth' ], function() {
 Route::get('bnet_disconnect', [ 'as' => 'bnet.disconnect', 'uses' => "BnetAuthController@bnet_disconnect", 'before' => 'auth|requires_bnet' ]);
 
 Route::group( [ 'before' => 'auth' ], function () {
-    Route::post('logout', [ 'as' => 'user.logout', 'uses' => 'AuthController@logout' ]);
+
     Route::get('bnet_connect', [ 'as' => 'bnet.connect', 'uses' => "BnetAuthController@bnet_connect" ]);
     Route::get('bnet_auth', [ 'as' => 'bnet.auth', 'uses' => "BnetAuthController@bnet_auth" ]);
 
