@@ -28,9 +28,17 @@ Contact an Adult
 		<a href="https://plus.google.com/101699772085740069639/posts" class="button gplus">
 			Google+
 		</a>
-		<a href="http://twitter.com/sc2ctl" class="button twitter">
-			Twitter
-		</a>
+
+        <p>
+            <h2>Twitter</h2>
+            <a href="http://twitter.com/sc2ctl" class="button twitter">
+                @sc2ctl
+            </a>
+            <a href="http://twitter.com/troypavlek" class="button twitter">
+                @troypavlek
+            </a>
+        </p>
+
 	</div>
 </div>
 @stop

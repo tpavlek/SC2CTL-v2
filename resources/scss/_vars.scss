@@ -22,10 +22,10 @@ $splash-foreground-color: white;
 $splash-height-percentage: 50vh;
 $splash-image-url: url('/img/main_logo_med.jpg');
 
-$button-primary-foreground-color: black;
-$button-primary-background-color: white;
+$button-primary-foreground-color: white;
+$button-primary-background-color: #0078e7;
 
-$inverted-button-background-color: #EDC800;
+$inverted-button-background-color: $highlight-color;
 $inverted-button-foreground-color: white;
 
 $section-header-underline-color: $nav-button-color;

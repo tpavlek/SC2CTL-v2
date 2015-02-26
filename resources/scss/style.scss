@@ -52,6 +52,17 @@ header.navigation {
   height: 100%;
 }
 
+div.jeopardy.splash:before {
+  background-image: url('/img/jeopardy/jeopardy-board.jpg');
+}
+
+div.jeopardy.splash .content .button {
+  border-color: #EDC800;
+}
+div.jeopardy.splash .content .button:hover {
+  background: #EDC800;
+}
+
 div.splash {
   position: relative;
   min-height: $splash-height-percentage;
@@ -120,6 +131,20 @@ div.splash:before {
   $background-color: $section-2-color;
   background: $background-color;
   color: darken( $background-color, 40%);
+}
+
+.content-wrapper section.jeopardy.section:nth-of-type(1) {
+  $fg-color: lighten(#002261, 70%);
+  background: #002261;
+  color: $fg-color;
+
+  p { color: $fg-color; }
+
+  ul { display: inline-block; font-size: 200%; line-height: 1.5em; text-align: left;}
+}
+
+.content-wrapper section.jeopardy.section:nth-of-type(2) {
+  background: #E3DB00;
 }
 
 .team-info-grid {

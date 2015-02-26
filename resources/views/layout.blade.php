@@ -21,13 +21,16 @@
                             <a href="{{ URL::route('home.about') }}">About</a>
                         </li>
                         <li>
-                            <a href="{{ URL::route('home.sponsors') }}">Sponsors</a>
+                            <a href="{{ URL::route('jeopardy') }}">Jeopardy!</a>
                         </li>
                         <li>
                             <a href="http://reddit.com/r/sc2ctl">Subreddit</a>
                         </li>
                         <li>
                             <a href="http://twitch.tv/sc2ctl">Stream</a>
+                        </li>
+                        <li>
+                            <a href="{{ URL::route('home.sponsors') }}">Sponsors</a>
                         </li>
                         @if (Auth::check())
                             <li>

@@ -10,7 +10,22 @@ class BattleNetUser extends BaseModel
 
     use SoftDeletes;
 
-    protected $guarded = [ 'id' ];
+    protected $fillable = [
+        'bnet_id',
+        'realm',
+        'name',
+        'display_name',
+        'profile_url',
+        'race',
+        'league',
+        'terran_wins',
+        'protoss_wins',
+        'zerg_wins',
+        'season_total_games',
+        'highest_league',
+        'career_total_games',
+        'user_id',
+    ];
 
     public $table = "bnet_users";
 

@@ -130,6 +130,7 @@ return [
         Illuminate\Html\HtmlServiceProvider::class,
         Depotwarehouse\Toolbox\FrameworkIntegration\Laravel\ToolboxServiceProvider::class,
         Intervention\Image\ImageServiceProvider::class,
+        \Depotwarehouse\OAuth2\Client\FrameworkIntegration\Laravel\BattleNetOAuth2ServiceProvider::class,
 
 
         /*
