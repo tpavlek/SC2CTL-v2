@@ -9,6 +9,9 @@ class PasswordReminder extends BaseModel
 {
     const SECONDS_TO_EXPIRE = 600;
 
+    protected $fillable = [ "email", "token" ];
+    protected $hidden = [ "token" ];
+
     public $table = "password_reminders";
 
     public function setUpdatedAtAttribute($value)

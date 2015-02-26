@@ -3,6 +3,15 @@
 namespace Depotwarehouse\SC2CTL\Web\Http\Controllers\Auth;
 
 use Depotwarehouse\SC2CTL\Web\Http\Controllers\Controller;
+use Depotwarehouse\SC2CTL\Web\Model\User\PasswordReminderExpiredException;
+use Depotwarehouse\SC2CTL\Web\Model\User\PasswordReminderRepository;
+use Depotwarehouse\SC2CTL\Web\Model\User\UserRepository;
+use Depotwarehouse\Toolbox\DataManagement\Validation\ValidationException;
+use Illuminate\Database\Eloquent\ModelNotFoundException;
+use Illuminate\Support\MessageBag;
+use Input;
+use Redirect;
+use View;
 
 class ReminderController extends Controller
 {
@@ -29,7 +38,7 @@ class ReminderController extends Controller
     /**
      * [POST] The postback received after the user requests a reset. This will send the email, or return an error.
      *
-     * @return Redirect
+     * @return \Illuminate\Http\RedirectResponse
      */
     public function send_token()
     {
