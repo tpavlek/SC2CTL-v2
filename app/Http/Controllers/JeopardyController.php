@@ -2,6 +2,9 @@
 
 namespace Depotwarehouse\SC2CTL\Web\Http\Controllers;
 
+use Carbon\Carbon;
+use DateTime;
+use DateTimeZone;
 use View;
 
 class JeopardyController extends Controller
@@ -14,6 +17,8 @@ class JeopardyController extends Controller
      */
     public function index()
     {
-        return View::make('jeopardy.index');
+        $next_show = new Carbon("March 3, 2015 9PM", new DateTimeZone('EST'));
+        return View::make('jeopardy.index')
+            ->with('next_show', $next_show);
     }
 }

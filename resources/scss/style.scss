@@ -144,7 +144,33 @@ div.splash:before {
 }
 
 .content-wrapper section.jeopardy.section:nth-of-type(2) {
-  background: #E3DB00;
+  h1 {
+    text-decoration: underline;
+    margin-bottom: 4rem;
+  }
+
+  background: #D3E7E8;
+  color: #41797b;
+
+  text-align: center;
+  font-size: 200%;
+
+}
+
+.jeopardy .contestant {
+  text-align: center;
+  img {
+    margin: 0 auto;
+    display: block;
+    width: 300px;
+  }
+  p {
+    color: black;
+    font-size: 80%;
+    line-height: 1.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
 }
 
 .team-info-grid {

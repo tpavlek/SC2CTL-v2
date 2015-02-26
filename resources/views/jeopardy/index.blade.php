@@ -43,11 +43,44 @@
     </section>
 
     <section class="jeopardy section">
-        <h2>Next Show</h2>
-        <p>
-            "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-            eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-            voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur mag
-        </p>
+        <h1>Next Show</h1>
+        <h2>{{ $next_show->toDayDateTimeString() }} EST</h2>
+        <h3>{{ $next_show->timezone(new DateTimeZone('UTC'))->toDayDateTimeString() }} UTC</h3>
+        <h3>{{ $next_show->timezone(new DateTimeZone('KST'))->toDayDateTimeString() }} KST</h3>
+
+        <div class="pure-g">
+            <div class="pure-u-1 pure-u-md-1-3">
+                <div class="contestant">
+                    <img src="/img/jeopardy/1/contestants/fenner.jpg">
+                    <a href="https://twitter.com/danielfenner">@danielfenner</a>
+                    <p>
+                        Fenner is a zerg player out of Australia with a sweet succulent voice of a thousand angels. His
+                        streams tend to be very educational, and his casts with BasetradeTV very pleasurable.
+                    </p>
+
+                </div>
+            </div>
+            <div class="pure-u-1 pure-u-md-1-3">
+                <div class="contestant">
+                    <img src="/img/jeopardy/1/contestants/winter.png">
+                    <a href="https://twitter.com/StarcraftWinter">@StarcraftWinter</a>
+                    <p>
+                        Winter is a Starcraft streamer who puts an ungodly amount of hours in each month. He probably hasn't
+                        slept.
+                    </p>
+
+                </div>
+            </div>
+            <div class="pure-u-1 pure-u-md-1-3">
+                <div class="contestant">
+                    <img src="/img/jeopardy/1/contestants/gemini.png">
+                    <a href="https://twitter.com/ggemini19">@GGemini19</a>
+                    <p>
+                        Dylan "Gemini" Kristopovich is a 19 year old GM Protoss player playing for Integrity Gaming. You've probably
+                        seen him trolling around reddit or twitter or writing on Teamliquid.
+                    </p>
+                </div>
+            </div>
+        </div>
     </section>
 @stop

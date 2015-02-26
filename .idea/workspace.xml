@@ -25,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/jeopardy/index.blade.php">
+      <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/scss/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.93264246" vertical-offset="0" max-vertical-offset="1062">
-              <caret line="50" column="11" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="11" />
+            <state vertical-scroll-proportion="0.49591002" vertical-offset="2593" max-vertical-offset="9216">
+              <caret line="171" column="25" selection-start-line="171" selection-start-column="25" selection-end-line="171" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -76,12 +76,12 @@
         <option value="$PROJECT_DIR$/resources/views/errors/404.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/help.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/contact.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/JeopardyController.php" />
         <option value="$PROJECT_DIR$/resources/views/layout.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/resources/scss/_vars.scss" />
-        <option value="$PROJECT_DIR$/resources/scss/style.scss" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/JeopardyController.php" />
         <option value="$PROJECT_DIR$/resources/views/jeopardy/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/scss/style.scss" />
       </list>
     </option>
   </component>
@@ -366,6 +366,76 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sc2ctl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sc2ctl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jeopardy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sc2ctl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sc2ctl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jeopardy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="contestants" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sc2ctl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sc2ctl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -602,7 +672,7 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$USER_HOME$/jeopardy" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="Termin&#9;ACTION&#9;ActivateTerminalToolWindow" />
+    <property name="SearchEverywhereHistoryKey" value="Termina&#9;ACTION&#9;ActivateTerminalToolWindow&#10;Termin&#9;ACTION&#9;ActivateTerminalToolWindow" />
     <property name="LayoutCode.rearrangeEntriesPHP" value="false" />
     <property name="options.lastSelected" value="reference.webide.settings.project.settings.php" />
     <property name="options.splitter.main.proportions" value="0.3" />
@@ -614,6 +684,9 @@
       <recent name="$PROJECT_DIR$/app/ViewComposers" />
       <recent name="$PROJECT_DIR$/resources/views" />
       <recent name="$PROJECT_DIR$/public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/img/jeopardy/1/contestants" />
     </key>
   </component>
   <component name="RunManager">
@@ -646,6 +719,9 @@
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="9a23559c-bcef-4e05-be88-ed35a2ace25a" name="Default" comment="" />
@@ -1487,18 +1563,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/JeopardyController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20245399" vertical-offset="0" max-vertical-offset="978">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-          <folding>
-            <marker date="1424984116919" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424984116919" expanded="true" signature="-1:-1" placeholder=" Display the info about Jeopardy! ..." />
-            <marker date="1424984116919" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layout.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5030675" vertical-offset="156" max-vertical-offset="1584">
@@ -1651,100 +1715,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/scss/style.scss">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/JeopardyController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6615542" vertical-offset="1963" max-vertical-offset="8748">
-          <caret line="145" column="58" selection-start-line="145" selection-start-column="58" selection-end-line="145" selection-end-column="58" />
+        <state vertical-scroll-proportion="0.5285935" vertical-offset="0" max-vertical-offset="647">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
           <folding>
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424987081562" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424988105452" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1424988105452" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424988105452" expanded="true" signature="-1:-1" placeholder=" Display the info about Jeopardy! ..." />
+            <marker date="1424988105452" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424988105452" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/jeopardy/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.93264246" vertical-offset="0" max-vertical-offset="1062">
-          <caret line="50" column="11" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="11" />
+        <state vertical-scroll-proportion="0.87875646" vertical-offset="466" max-vertical-offset="1656">
+          <caret line="73" column="48" selection-start-line="73" selection-start-column="48" selection-end-line="73" selection-end-column="48" />
+          <folding>
+            <marker date="1424989742626" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1424989742626" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1424989742626" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1424989742626" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1424989742626" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1424989742626" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1424989742626" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1424989742626" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1424989742626" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1424989742626" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1424989742626" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1424989742626" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1424989742626" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1424989742626" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1424989742626" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1424989742626" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1424989742626" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1424989742626" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1424989742626" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1424989742626" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1424989742626" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1424989742626" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1424989742626" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/scss/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49591002" vertical-offset="2593" max-vertical-offset="9216">
+          <caret line="171" column="25" selection-start-line="171" selection-start-column="25" selection-end-line="171" selection-end-column="25" />
           <folding />
         </state>
       </provider>
