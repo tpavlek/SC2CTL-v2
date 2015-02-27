@@ -30,6 +30,9 @@
                             <a href="http://twitch.tv/sc2ctl">Stream</a>
                         </li>
                         <li>
+                            <a href="http://vods.sc2ctl.com">VODs</a>
+                        </li>
+                        <li>
                             <a href="{{ URL::route('home.sponsors') }}">Sponsors</a>
                         </li>
                         @if (Auth::check())
