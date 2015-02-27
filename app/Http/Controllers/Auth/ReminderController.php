@@ -7,6 +7,7 @@ use Depotwarehouse\SC2CTL\Web\Model\User\PasswordReminderExpiredException;
 use Depotwarehouse\SC2CTL\Web\Model\User\PasswordReminderRepository;
 use Depotwarehouse\SC2CTL\Web\Model\User\UserRepository;
 use Depotwarehouse\Toolbox\DataManagement\Validation\ValidationException;
+use Illuminate\Contracts\Auth\Guard;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Illuminate\Support\MessageBag;
 use Input;
@@ -93,9 +94,11 @@ class ReminderController extends Controller
      * We will update the user record with a new password, delete the password reset token so that it can't be reused,
      * and then log in the newly passworded user.
      *
+     * @param Guard $auth
      * @return Redirect
+     * @throws \Exception
      */
-    public function complete_reset()
+    public function complete_reset(Guard $auth)
     {
         $token = Input::get('token');
         $password = Input::get('password');
@@ -111,7 +114,7 @@ class ReminderController extends Controller
                 );
                 $reminder->delete();
 
-                Auth::login($user);
+                $auth->login($user);
                 return Redirect::route('user.show', $user->id);
 
             } catch (ModelNotFoundException $exception) {

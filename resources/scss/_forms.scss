@@ -36,8 +36,11 @@
 .button.cancel { background: #949494; color:white; }
 .button.cancel:hover { background: rgb(202, 60, 60); color:white; }
 .button.twitter { background: #9AE4E8; color: black; }
+.button.twitter:hover { background: darken(#9AE4E8, 10%); color: black; }
 .button.facebook { background: #3D62B3; color: white; }
+.button.facebook:hover { background: darken(#3D62B3, 10%); }
 .button.gplus { background: #D34836; color:white; }
+.button.gplus:hover { background: darken(#D34836, 10%); }
 .inverted-button { background: none; border: 2px solid $inverted-button-background-color; color: $inverted-button-foreground-color; }
 .inverted-button:hover { background: $inverted-button-background-color; color: black; }
 .button.action { background: white; color: black }

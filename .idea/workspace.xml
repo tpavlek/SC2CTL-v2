@@ -25,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="composer.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/composer.json">
+      <file leaf-file-name="_forms.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/scss/_forms.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33908948" vertical-offset="0" max-vertical-offset="990">
-              <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+            <state vertical-scroll-proportion="0.33789474" vertical-offset="435" max-vertical-offset="2790">
+              <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -49,11 +49,9 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
         <option value="$PROJECT_DIR$/resources/views/login/login.blade.php" />
         <option value="$PROJECT_DIR$/app/Model/User/UserValidator.php" />
-        <option value="$PROJECT_DIR$/app/Model/User/Eloquent/User.php" />
         <option value="$PROJECT_DIR$/resources/views/user/edit.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/user/index.blade.php" />
         <option value="$PROJECT_DIR$/config/auth.php" />
-        <option value="$PROJECT_DIR$/resources/scss/_forms.scss" />
         <option value="$PROJECT_DIR$/resources/views/about.blade.php" />
         <option value="$PROJECT_DIR$/app/Permissions/IsUser.php" />
         <option value="$PROJECT_DIR$/app/ViewComposers/UserEditComposer.php" />
@@ -66,7 +64,6 @@
         <option value="$PROJECT_DIR$/config/app.php" />
         <option value="$PROJECT_DIR$/vendor/depotwarehouse/oauth2-bnet/src/Provider/BattleNet.php" />
         <option value="$PROJECT_DIR$/vendor/depotwarehouse/oauth2-bnet/src/FrameworkIntegration/Laravel/BattleNetOAuth2ServiceProvider.php" />
-        <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/app/Model/User/Eloquent/BattleNetUser.php" />
         <option value="$PROJECT_DIR$/app/Exceptions/Handler.php" />
         <option value="$PROJECT_DIR$/resources/views/errors/404.blade.php" />
@@ -82,10 +79,18 @@
         <option value="$PROJECT_DIR$/resources/views/reminder/start_reset.blade.php" />
         <option value="$PROJECT_DIR$/app/Model/User/Eloquent/PasswordReminder.php" />
         <option value="$PROJECT_DIR$/app/Model/User/PasswordReminderExpiredException.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/ReminderController.php" />
         <option value="$PROJECT_DIR$/app/Model/User/Eloquent/PasswordReminderRepository.php" />
         <option value="$PROJECT_DIR$/app/Model/User/PasswordReminderRepository.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/ReminderController.php" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/config/services.php" />
+        <option value="$PROJECT_DIR$/app/Services/Mailers/PasswordReminder.php" />
+        <option value="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" />
         <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/config/mail.php" />
+        <option value="$PROJECT_DIR$/resources/views/reminder/finalize_password.blade.php" />
+        <option value="$PROJECT_DIR$/app/Model/User/Eloquent/User.php" />
+        <option value="$PROJECT_DIR$/resources/scss/_forms.scss" />
       </list>
     </option>
   </component>
@@ -99,10 +104,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
     <option name="y" value="31" />
-    <option name="width" value="1922" />
-    <option name="height" value="1053" />
+    <option name="width" value="1920" />
+    <option name="height" value="1049" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -127,7 +131,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -277,6 +280,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="jeopardy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sc2ctl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sc2ctl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="emails" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -495,10 +520,6 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ViewComposers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -511,6 +532,14 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Services" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mailers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -532,174 +561,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sc2ctl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sc2ctl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Permissions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sc2ctl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sc2ctl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sc2ctl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sc2ctl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="User" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sc2ctl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sc2ctl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Http" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sc2ctl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sc2ctl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Http" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sc2ctl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sc2ctl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Http" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Auth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sc2ctl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sc2ctl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Handlers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sc2ctl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sc2ctl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Exceptions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$USER_HOME$/sc2ctl/sc2ctl" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="Termin&#9;ACTION&#9;ActivateTerminalToolWindow&#10;Termina&#9;ACTION&#9;ActivateTerminalToolWindow" />
+    <property name="SearchEverywhereHistoryKey" value="Termin&#9;ACTION&#9;ActivateTerminalToolWindow&#10;termin&#9;ACTION&#9;ActivateTerminalToolWindow&#10;Termina&#9;ACTION&#9;ActivateTerminalToolWindow" />
     <property name="LayoutCode.rearrangeEntriesPHP" value="false" />
     <property name="options.lastSelected" value="reference.webide.settings.project.settings.php" />
     <property name="options.splitter.main.proportions" value="0.3" />
@@ -707,6 +577,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/emails" />
       <recent name="$PROJECT_DIR$/resources/views/errors" />
       <recent name="$PROJECT_DIR$/app/ViewComposers" />
       <recent name="$PROJECT_DIR$/resources/views" />
@@ -731,9 +602,6 @@
       <BehatRunner />
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
@@ -741,6 +609,9 @@
       <arguments />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -759,29 +630,29 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="31" width="1922" height="1053" extended-state="6" />
+    <frame x="0" y="31" width="1920" height="1049" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3389662" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3389662" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32902583" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32902583" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32902583" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32902583" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -805,46 +676,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/scss/_user.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1044">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/scripts/scripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48071218" vertical-offset="0" max-vertical-offset="3492">
-          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44513136" vertical-offset="18" max-vertical-offset="1368">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/sponsors.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16564417" vertical-offset="0" max-vertical-offset="1116">
-          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/login/login.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.083462134" vertical-offset="108" max-vertical-offset="900">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/scss/_headers.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="674">
@@ -853,19 +684,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Model/User/UserValidator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7789799" vertical-offset="0" max-vertical-offset="1062">
-          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/user/edit.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.25084746" vertical-offset="292" max-vertical-offset="882">
           <caret line="8" column="100" selection-start-line="8" selection-start-column="100" selection-end-line="8" selection-end-column="100" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -873,7 +695,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2503864" vertical-offset="0" max-vertical-offset="647">
           <caret line="9" column="62" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -881,7 +702,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.0850078" vertical-offset="0" max-vertical-offset="1098">
           <caret line="39" column="38" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -889,23 +709,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4417178" vertical-offset="0" max-vertical-offset="1314">
           <caret line="24" column="76" selection-start-line="24" selection-start-column="76" selection-end-line="24" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Model/User/Eloquent/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5153374" vertical-offset="0" max-vertical-offset="1638">
-          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/scss/_forms.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45910022" vertical-offset="451" max-vertical-offset="2736">
-          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -913,7 +716,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4417178" vertical-offset="0" max-vertical-offset="978">
           <caret line="24" column="78" selection-start-line="24" selection-start-column="78" selection-end-line="24" selection-end-column="78" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -921,7 +723,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.8220859" vertical-offset="876" max-vertical-offset="1854">
           <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -929,7 +730,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.05564142" vertical-offset="0" max-vertical-offset="702">
           <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -937,7 +737,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.05564142" vertical-offset="0" max-vertical-offset="864">
           <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -945,7 +744,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7496136" vertical-offset="1" max-vertical-offset="648">
           <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -953,7 +751,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.61051005" vertical-offset="1279" max-vertical-offset="1926">
           <caret line="98" column="47" selection-start-line="98" selection-start-column="47" selection-end-line="98" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -961,7 +758,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.58423495" vertical-offset="0" max-vertical-offset="647">
           <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -969,7 +765,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.41576508" vertical-offset="1423" max-vertical-offset="2160">
           <caret line="103" column="0" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -977,7 +772,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.08191654" vertical-offset="2323" max-vertical-offset="3690">
           <caret line="132" column="105" selection-start-line="132" selection-start-column="105" selection-end-line="132" selection-end-column="105" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -985,7 +779,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5285935" vertical-offset="54" max-vertical-offset="1440">
           <caret line="25" column="55" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -993,14 +786,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.24884081" vertical-offset="145" max-vertical-offset="846">
           <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4272997" vertical-offset="0" max-vertical-offset="674">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1008,7 +793,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.50850075" vertical-offset="31" max-vertical-offset="1620">
           <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1016,7 +800,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7789799" vertical-offset="0" max-vertical-offset="702">
           <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1024,7 +807,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7496136" vertical-offset="289" max-vertical-offset="990">
           <caret line="43" column="65" selection-start-line="43" selection-start-column="65" selection-end-line="43" selection-end-column="65" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1032,7 +814,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.61205566" vertical-offset="0" max-vertical-offset="720">
           <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1040,7 +821,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33128834" vertical-offset="0" max-vertical-offset="978">
           <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1048,7 +828,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.42331287" vertical-offset="0" max-vertical-offset="978">
           <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1056,7 +835,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5030675" vertical-offset="156" max-vertical-offset="1584">
           <caret line="36" column="90" selection-start-line="36" selection-start-column="90" selection-end-line="36" selection-end-column="90" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1064,7 +842,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.797546" vertical-offset="102" max-vertical-offset="1116">
           <caret line="49" column="82" selection-start-line="49" selection-start-column="82" selection-end-line="49" selection-end-column="82" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1072,7 +849,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2760736" vertical-offset="0" max-vertical-offset="4680">
           <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1093,7 +869,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2392638" vertical-offset="0" max-vertical-offset="978">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1101,7 +876,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5285935" vertical-offset="0" max-vertical-offset="647">
           <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1109,13 +883,309 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.87875646" vertical-offset="466" max-vertical-offset="1656">
           <caret line="73" column="48" selection-start-line="73" selection-start-column="48" selection-end-line="73" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="664">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/depotwarehouse/toolbox/src/DataManagement/Repositories/ActiveRepositoryAbstract.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16954474" vertical-offset="0" max-vertical-offset="1836">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/depotwarehouse/toolbox/src/DataManagement/Validation/NullValidator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11302983" vertical-offset="0" max-vertical-offset="637">
+          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Model/User/UserRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06750392" vertical-offset="335" max-vertical-offset="1242">
+          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Model/User/Eloquent/PasswordReminder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48037678" vertical-offset="0" max-vertical-offset="666">
+          <caret line="18" column="62" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Model/User/PasswordReminderExpiredException.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1978022" vertical-offset="0" max-vertical-offset="637">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Model/User/PasswordReminderRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4386503" vertical-offset="129" max-vertical-offset="1134">
+          <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+          <folding>
+            <marker date="1424992252616" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1424992252616" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424992252616" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424992252616" expanded="true" signature="-1:-1" placeholder=" Generates a unique token to send in an email. ..." />
+            <marker date="1424992252616" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424992252616" expanded="true" signature="-1:-1" placeholder=" Creates a new PasswordReminder in the database. ..." />
+            <marker date="1424992252616" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424992252616" expanded="true" signature="-1:-1" placeholder=" Finds a password reminder by it's token. ..." />
+            <marker date="1424992252616" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424992252616" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/EventServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4969325" vertical-offset="0" max-vertical-offset="978">
+          <caret line="27" column="121" selection-start-line="27" selection-start-column="121" selection-end-line="27" selection-end-column="121" />
+          <folding>
+            <marker date="1425054802929" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425054802929" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425054802929" expanded="true" signature="-1:-1" placeholder=" The event handler mappings for the application. ..." />
+            <marker date="1425054802929" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425054802929" expanded="true" signature="-1:-1" placeholder=" Register any other events for your application. ..." />
+            <marker date="1425054802929" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/emails/reminder.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48037678" vertical-offset="0" max-vertical-offset="637">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <marker date="1421871446000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1421871446000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1421871446000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1421871446000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1421871446000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5588697" vertical-offset="112" max-vertical-offset="1008">
+          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+          <folding>
+            <marker date="1425055219092" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;laravel/laravel&quot;...}" />
+            <marker date="1425055219092" expanded="true" signature="-1:-1" placeholder="{&quot;laravel/framework&quot;: &quot;5.0.*&quot;...}" />
+            <marker date="1425055219092" expanded="true" signature="-1:-1" placeholder="{&quot;phpunit/phpunit&quot;: &quot;~4.0&quot;...}" />
+            <marker date="1425055219092" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1425055219092" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1425055219092" expanded="true" signature="-1:-1" placeholder="{&quot;Depotwarehouse\\SC2CTL\\Web\\&quot;: &quot;app/&quot;...}" />
+            <marker date="1425055219092" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1425055219092" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1425055219092" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1425055219092" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1425055219092" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1425055219092" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1425055219092" expanded="true" signature="-1:-1" placeholder="{&quot;preferred-install&quot;: &quot;dist&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43373495" vertical-offset="0" max-vertical-offset="664">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Services/Mailers/PasswordReminder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33594978" vertical-offset="146" max-vertical-offset="810">
+          <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
+          <folding>
+            <marker date="1425054758212" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1425054758212" expanded="true" signature="-1:-1" placeholder=" Class PasswordReminder ..." />
+            <marker date="1425054758212" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1425054758212" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425054758212" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1425054758212" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425054758212" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/services.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.62166405" vertical-offset="0" max-vertical-offset="774">
+          <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+          <folding>
+            <marker date="1425054633245" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425054633245" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425054633245" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425054633245" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425054633245" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425054633245" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/mail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6043956" vertical-offset="623" max-vertical-offset="2340">
+          <caret line="56" column="68" selection-start-line="56" selection-start-column="68" selection-end-line="56" selection-end-column="68" />
+          <folding>
+            <marker date="1425055595145" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425055595145" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425055595145" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425055595145" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425055595145" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425055595145" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425055595145" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425055595145" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425055595145" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425055595145" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/reminder/start_reset.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5368917" vertical-offset="0" max-vertical-offset="666">
+          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+          <folding>
+            <marker date="1424992021339" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1424992021339" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1424992021339" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1424992021339" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1424992021339" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1424992021339" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/reminder/finalize_password.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5934066" vertical-offset="0" max-vertical-offset="637">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <marker date="1425055691829" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425055691829" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425055691829" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425055691829" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425055691829" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425055691829" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Model/User/Eloquent/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31083202" vertical-offset="0" max-vertical-offset="1638">
+          <caret line="15" column="60" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
+          <folding>
+            <marker date="1425055937089" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1425055937089" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1425055937089" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1425055937089" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425055937089" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1425055937089" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1425055937089" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1425055937089" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1425055937089" expanded="true" signature="-1:-1" placeholder=" Get the team the user is enrolled on. ..." />
+            <marker date="1425055937089" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1425055937089" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1425055937089" expanded="true" signature="-1:-1" placeholder=" Is the user on a team right now? ..." />
+            <marker date="1425055937089" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1425055937089" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1425055937089" expanded="true" signature="-1:-1" placeholder=" Get the e-mail address where password reset links are sent. ..." />
+            <marker date="1425055937089" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/ReminderController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36734694" vertical-offset="1620" max-vertical-offset="2430">
+          <caret line="113" column="18" selection-start-line="113" selection-start-column="18" selection-end-line="113" selection-end-column="18" />
+          <folding>
+            <marker date="1425054208792" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1425054208792" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1425054208792" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1425054208792" expanded="true" signature="-1:-1" placeholder=" Show the form to allow user to request a password reset. ..." />
+            <marker date="1425054208792" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1425054208792" expanded="true" signature="-1:-1" placeholder=" [POST] The postback received after the user requests a reset. This will send the email, or return an error. ..." />
+            <marker date="1425054208792" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1425054208792" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425054208792" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425054208792" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425054208792" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425054208792" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425054208792" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425054208792" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425054208792" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425054208792" expanded="true" signature="-1:-1" placeholder=" Displays the form for the user to enter their new password. Will redirect to the beginning with errors if ..." />
+            <marker date="1425054208792" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1425054208792" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425054208792" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425054208792" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425054208792" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425054208792" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425054208792" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425054208792" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425054208792" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425054208792" expanded="true" signature="-1:-1" placeholder=" [POST] Finalizes the password reset process by actually updating the user record with the new password. ..." />
+            <marker date="1425054208792" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1425054208792" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425054208792" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425054208792" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425054208792" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425054208792" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425054208792" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425054208792" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425054208792" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425054208792" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425054208792" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425054208792" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425054208792" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425054208792" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Model/User/UserValidator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5368917" vertical-offset="0" max-vertical-offset="1044">
+          <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
+          <folding>
+            <marker date="1424975046066" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1424975046066" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424975046066" expanded="true" signature="-1:-1" placeholder=" Validates the input based on creating a new object ..." />
+            <marker date="1424975046066" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424975046066" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1424975046066" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1424975046066" expanded="true" signature="-1:-1" placeholder=" Validates the input based on updating an existing object ..." />
+            <marker date="1424975046066" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424975046066" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1424975046066" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/scss/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4788069" vertical-offset="2593" max-vertical-offset="9216">
+        <state vertical-scroll-proportion="0.054945055" vertical-offset="2863" max-vertical-offset="9216">
           <caret line="161" column="7" selection-start-line="161" selection-start-column="7" selection-end-line="161" selection-end-column="7" />
           <folding>
             <marker date="1424989765126" expanded="true" signature="-1:-1" placeholder="{...}" />
@@ -1207,197 +1277,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
+    <entry file="file://$PROJECT_DIR$/resources/scss/_forms.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="664">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1424799510593" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1424799510593" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/depotwarehouse/toolbox/src/DataManagement/Repositories/ActiveRepositoryAbstract.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16954474" vertical-offset="0" max-vertical-offset="1836">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-          <folding>
-            <marker date="1424885213000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1424885213000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424885213000" expanded="true" signature="-1:-1" placeholder=" The validator we use to ensure all data is consistent. ..." />
-            <marker date="1424885213000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424885213000" expanded="true" signature="-1:-1" placeholder=" Returns all instances of the model ..." />
-            <marker date="1424885213000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424885213000" expanded="true" signature="-1:-1" placeholder=" Finds specific instances a model by it's primary key. ..." />
-            <marker date="1424885213000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424885213000" expanded="true" signature="-1:-1" placeholder=" Creates a new instance of the model based on the array of attributes passed in. ..." />
-            <marker date="1424885213000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424885213000" expanded="true" signature="-1:-1" placeholder=" Updates a model with the given IDs using the array of attributes passed in. ..." />
-            <marker date="1424885213000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424885213000" expanded="true" signature="-1:-1" placeholder=" Destroys a particular or set of models. ..." />
-            <marker date="1424885213000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/depotwarehouse/toolbox/src/DataManagement/Validation/NullValidator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11302983" vertical-offset="0" max-vertical-offset="637">
-          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
-          <folding>
-            <marker date="1424885213000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424885213000" expanded="true" signature="-1:-1" placeholder=" Validates the input based on creating a new object ..." />
-            <marker date="1424885213000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424885213000" expanded="true" signature="-1:-1" placeholder=" Validates the input based on updating an existing object ..." />
-            <marker date="1424885213000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/reminder/finalize_password.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="664">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1421871446000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1421871446000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1421871446000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1421871446000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1421871446000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/reminder/start_reset.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5368917" vertical-offset="0" max-vertical-offset="666">
-          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
-          <folding>
-            <marker date="1424992021339" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424992021339" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424992021339" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424992021339" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424992021339" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424992021339" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Model/User/UserRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06750392" vertical-offset="335" max-vertical-offset="1242">
-          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
-          <folding>
-            <marker date="1424991925992" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1424991925992" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424991925992" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424991925992" expanded="true" signature="-1:-1" placeholder=" Create a new user record (including hashing of the password). ..." />
-            <marker date="1424991925992" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424991925992" expanded="true" signature="-1:-1" placeholder=" @param mixed $id ..." />
-            <marker date="1424991925992" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424991925992" expanded="true" signature="-1:-1" placeholder=" Finds a user by their Email address. ..." />
-            <marker date="1424991925992" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Model/User/Eloquent/PasswordReminder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48037678" vertical-offset="0" max-vertical-offset="666">
-          <caret line="18" column="62" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
-          <folding>
-            <marker date="1424992145459" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1424992145459" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424992145459" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424992145459" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424992145459" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Model/User/PasswordReminderExpiredException.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1978022" vertical-offset="0" max-vertical-offset="637">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <marker date="1424992192239" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/ReminderController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3956044" vertical-offset="756" max-vertical-offset="2394">
-          <caret line="65" column="7" selection-start-line="65" selection-start-column="7" selection-end-line="65" selection-end-column="7" />
-          <folding>
-            <marker date="1424992252612" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1424992252612" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424992252612" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424992252612" expanded="true" signature="-1:-1" placeholder=" Show the form to allow user to request a password reset. ..." />
-            <marker date="1424992252612" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424992252612" expanded="true" signature="-1:-1" placeholder=" [POST] The postback received after the user requests a reset. This will send the email, or return an error. ..." />
-            <marker date="1424992252612" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424992252612" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424992252612" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424992252612" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424992252612" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424992252612" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424992252612" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424992252612" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424992252612" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424992252612" expanded="true" signature="-1:-1" placeholder=" Displays the form for the user to enter their new password. Will redirect to the beginning with errors if ..." />
-            <marker date="1424992252612" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424992252612" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424992252612" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424992252612" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424992252612" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424992252612" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424992252612" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424992252612" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424992252612" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424992252612" expanded="true" signature="-1:-1" placeholder=" [POST] Finalizes the password reset process by actually updating the user record with the new password. ..." />
-            <marker date="1424992252612" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424992252612" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424992252612" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424992252612" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424992252612" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424992252612" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424992252612" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424992252612" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424992252612" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424992252612" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424992252612" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424992252612" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424992252612" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424992252612" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Model/User/PasswordReminderRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7346939" vertical-offset="54" max-vertical-offset="1188">
-          <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
-          <folding>
-            <marker date="1424992252616" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424992252616" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424992252616" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424992252616" expanded="true" signature="-1:-1" placeholder=" Generates a unique token to send in an email. ..." />
-            <marker date="1424992252616" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424992252616" expanded="true" signature="-1:-1" placeholder=" Creates a new PasswordReminder in the database. ..." />
-            <marker date="1424992252616" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424992252616" expanded="true" signature="-1:-1" placeholder=" Finds a password reminder by it's token. ..." />
-            <marker date="1424992252616" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1424992252616" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33908948" vertical-offset="0" max-vertical-offset="990">
-          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+        <state vertical-scroll-proportion="0.33789474" vertical-offset="435" max-vertical-offset="2790">
+          <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
           <folding />
         </state>
       </provider>

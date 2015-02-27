@@ -10,7 +10,8 @@
 		"illuminate/html": "~5.0",
 		"depotwarehouse/toolbox": "~2.0.1",
 		"intervention/image": "~2.1",
-		"depotwarehouse/oauth2-bnet": "~2.0.1"
+		"depotwarehouse/oauth2-bnet": "~2.0.1",
+		"guzzlehttp/guzzle": "~4.0"
 	},
 	"require-dev": {
 		"phpunit/phpunit": "~4.0",

@@ -1,5 +1,7 @@
 <?php namespace Depotwarehouse\SC2CTL\Web\Providers;
 
+use App;
+use Depotwarehouse\SC2CTL\Web\Model\User\Eloquent\PasswordReminder;
 use Illuminate\Contracts\Events\Dispatcher as DispatcherContract;
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
 
@@ -11,9 +13,6 @@ class EventServiceProvider extends ServiceProvider {
 	 * @var array
 	 */
 	protected $listen = [
-		'event.name' => [
-			'EventListener',
-		],
 	];
 
 	/**
@@ -25,6 +24,8 @@ class EventServiceProvider extends ServiceProvider {
 	public function boot(DispatcherContract $events)
 	{
 		parent::boot($events);
+
+        PasswordReminder::observe($this->app->make(\Depotwarehouse\SC2CTL\Web\Services\Mailers\PasswordReminder::class));
 
 		//
 	}

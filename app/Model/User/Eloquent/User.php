@@ -13,7 +13,7 @@ class User extends BaseModel implements Authenticatable, CanResetPassword
 
     use \Illuminate\Auth\Authenticatable, SoftDeletes;
 
-    protected $fillable = [ 'username', 'email' ];
+    protected $fillable = [ 'username', 'email', 'password' ];
     protected $hidden = [ 'password' ];
 
     public function getProfileImgAttribute()
