@@ -67,4 +67,12 @@ class HomeController extends Controller
         return View::make('sponsors');
     }
 
+    /**
+     * @return \Illuminate\View\View
+     */
+    public function support()
+    {
+        return View::make('support');
+    }
+
 }
