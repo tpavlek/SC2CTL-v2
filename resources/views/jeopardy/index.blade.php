@@ -44,10 +44,59 @@
 
     <section class="jeopardy section">
         <h1>Next Show</h1>
-	<h2>TBD</h2>
+        @if (isset($next_show))
+            <h2>{{ $next_show->timezone(new DateTimeZone('America/Detroit'))->toDayDateTimeString() }} Eastern</h2>
+            <h3>{{ $next_show->timezone(new DateTimeZone('America/Edmonton'))->toDayDateTimeString() }} Mountain</h3>
+            <h3>{{ $next_show->timezone(new DateTimeZone('UTC'))->toDayDateTimeString() }} UTC</h3>
+            <h3>{{ $next_show->timezone(new DateTimeZone('KST'))->toDayDateTimeString() }} KST</h3>
+        @else
+            <h2>TBD</h2>
+        @endif
 
-	<p>
-		Previous shows please see: <a href="http://vods.sc2ctl.com">vods.sc2ctl.com</a>
-	</p>
+
+        <div class="pure-g">
+            <div class="pure-u-1 pure-u-md-1-3">
+                <div class="contestant">
+                    <img src="/img/jeopardy/2/contestants/pengwin.jpg">
+                    <a href="https://twitter.com/mYiPengWin">@mYiPengWin</a>
+                    <p>
+                        Stefan "PengWin" Mott is a professional Starcraft 2 Player and Caster. He is currently the captain of
+                        mYinsanity and casts various events include WCS EU Challenger League.
+                    </p>
+
+                </div>
+            </div>
+            <div class="pure-u-1 pure-u-md-1-3">
+                <div class="contestant">
+                    <img src="/img/jeopardy/2/contestants/sirrobin.png">
+                    <a href="https://twitter.com/SirRobinSC2">@SirRobinSC2</a>
+                    <p>
+                        SirRobin is a Grandmaster Zerg level player from Atlanta, GA. Since the start of 2015 he has
+                        been doing daily consistent streaming on his <a href="http://www.twitch.tv/sirrobin">Twitch.tv Channel</a>
+                    </p>
+
+                </div>
+            </div>
+            <div class="pure-u-1 pure-u-md-1-3">
+                <div class="contestant">
+                    <img src="/img/jeopardy/1/contestants/gemini.png">
+                    <a href="https://twitter.com/ggemini19">@GGemini19</a>
+                    <small><i class="fa fa-trophy"></i> Returning Champion</small>
+                    <p>
+                        Our returning champion, who ended with 3,599, Dylan "Gemini" Kristopovich is a 19 year old GM
+                        Protoss player playing for Integrity Gaming. You've probably
+                        seen him trolling around reddit or twitter or writing on Teamliquid.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <section class="jeopardy section">
+        <h1>Previous Shows</h1>
+
+        <a href="http://vods.sc2ctl.com" class="button massive inverted-button">SC2CTL VODs</a>
     </section>
 @stop

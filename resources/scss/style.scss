@@ -157,8 +157,27 @@ div.splash:before {
 
 }
 
+.content-wrapper section.jeopardy.section:nth-of-type(3) {
+  background: #b73234;
+  h1, h2, h3 {
+    color: lighten(#b73234, 30%);
+  }
+
+  text-align: center;
+  color: white;
+}
+
 .jeopardy .contestant {
   text-align: center;
+  a {
+    padding: 0.5rem;
+    display: block;
+  }
+  small {
+    display: block;
+    padding-top: 1rem;
+    margin-bottom: 0.5rem;
+  }
   img {
     margin: 0 auto;
     display: block;
