@@ -57,35 +57,35 @@
         <div class="pure-g">
             <div class="pure-u-1 pure-u-md-1-3">
                 <div class="contestant">
+                    <img src="/img/jeopardy/3/contestants/kane.jpg">
+                    <a href="https://twitter.com/myikane">@mYiKane</a>
+                    <p>
+                        Kane is a Canadian professional Zerg player currently playing for team mYinsanity. He's achieved
+                        many positive results in the past, including a first-place win in SHOUTcraft America.
+                    </p>
+
+                </div>
+            </div>
+            <div class="pure-u-1 pure-u-md-1-3">
+                <div class="contestant">
+                    <img src="/img/jeopardy/3/contestants/jakatak.jpg">
+                    <a href="https://twitter.com/JaKaTaKtv">@JaKaTaKtv</a>
+                    <p>
+                        Jakatak is a content producer for Starcraft 2 who contributed many videos to the long running
+                        channel Tutorial Central. These days, he produces a lot of content for
+                        <a href="https://www.youtube.com/user/jakataktv">his YouTube channel.</a>
+                    </p>
+
+                </div>
+            </div>
+            <div class="pure-u-1 pure-u-md-1-3">
+                <div class="contestant">
                     <img src="/img/jeopardy/2/contestants/pengwin.jpg">
-                    <a href="https://twitter.com/mYiPengWin">@mYiPengWin</a>
-                    <p>
-                        Stefan "PengWin" Mott is a professional Starcraft 2 Player and Caster. He is currently the captain of
-                        mYinsanity and casts various events include WCS EU Challenger League.
-                    </p>
-
-                </div>
-            </div>
-            <div class="pure-u-1 pure-u-md-1-3">
-                <div class="contestant">
-                    <img src="/img/jeopardy/2/contestants/sirrobin.png">
-                    <a href="https://twitter.com/SirRobinSC2">@SirRobinSC2</a>
-                    <p>
-                        SirRobin is a Grandmaster Zerg level player from Atlanta, GA. Since the start of 2015 he has
-                        been doing daily consistent streaming on his <a href="http://www.twitch.tv/sirrobin">Twitch.tv Channel</a>
-                    </p>
-
-                </div>
-            </div>
-            <div class="pure-u-1 pure-u-md-1-3">
-                <div class="contestant">
-                    <img src="/img/jeopardy/1/contestants/gemini.png">
-                    <a href="https://twitter.com/ggemini19">@GGemini19</a>
+                    <a href="https://twitter.com/myipengwin">@mYiPengWin</a>
                     <small><i class="fa fa-trophy"></i> Returning Champion</small>
                     <p>
-                        Our returning champion, who ended with 3,599, Dylan "Gemini" Kristopovich is a 19 year old GM
-                        Protoss player playing for Integrity Gaming. You've probably
-                        seen him trolling around reddit or twitter or writing on Teamliquid.
+                        Stefan "PengWin" Mott is a professional Starcraft 2 Player and Caster. He is currently the
+                        captain of mYinsanity and casts various events include WCS EU Challenger League.
                     </p>
                 </div>
             </div>

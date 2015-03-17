@@ -25,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="JeopardyController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/JeopardyController.php">
+      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/jeopardy/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.45211932" vertical-offset="0" max-vertical-offset="637">
-              <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.22948074" vertical-offset="1339" max-vertical-offset="1944">
+              <caret line="82" column="62" selection-start-line="82" selection-start-column="62" selection-end-line="82" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -89,8 +89,8 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
         <option value="$PROJECT_DIR$/resources/views/support.blade.php" />
         <option value="$PROJECT_DIR$/resources/scss/style.scss" />
-        <option value="$PROJECT_DIR$/resources/views/jeopardy/index.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/JeopardyController.php" />
+        <option value="$PROJECT_DIR$/resources/views/jeopardy/index.blade.php" />
       </list>
     </option>
   </component>
@@ -104,9 +104,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
   <component name="ProjectFrameBounds">
-    <option name="y" value="31" />
-    <option name="width" value="1920" />
-    <option name="height" value="1049" />
+    <option name="x" value="-3" />
+    <option name="y" value="36" />
+    <option name="width" value="1686" />
+    <option name="height" value="1017" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -131,6 +132,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -145,7 +147,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sc2ctl" />
+              <option name="myItemId" value="sc2ctl-v2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -155,191 +157,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sc2ctl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sc2ctl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sc2ctl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="league" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sc2ctl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sc2ctl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="depotwarehouse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sc2ctl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sc2ctl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sc2ctl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sc2ctl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reminder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sc2ctl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sc2ctl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jeopardy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sc2ctl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sc2ctl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="emails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sc2ctl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sc2ctl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scss" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sc2ctl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sc2ctl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sc2ctl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sc2ctl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sc2ctl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sc2ctl" />
+              <option name="myItemId" value="sc2ctl-v2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -353,43 +171,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sc2ctl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sponsor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sc2ctl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sc2ctl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sc2ctl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sc2ctl" />
+              <option name="myItemId" value="sc2ctl-v2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -407,7 +189,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sc2ctl" />
+              <option name="myItemId" value="sc2ctl-v2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -429,7 +211,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sc2ctl" />
+              <option name="myItemId" value="sc2ctl-v2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -445,7 +227,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="1" />
+              <option name="myItemId" value="2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -453,77 +235,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sc2ctl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sc2ctl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sc2ctl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sc2ctl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sc2ctl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sc2ctl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sc2ctl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sc2ctl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Services" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mailers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -562,6 +275,9 @@
       <BehatRunner />
       <method />
     </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
@@ -569,9 +285,6 @@
       <arguments />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -590,19 +303,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="31" width="1920" height="1049" extended-state="6" />
-    <editor active="false" />
+    <frame x="-3" y="36" width="1686" height="1017" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3389662" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33817428" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32902583" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24880952" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -610,9 +321,11 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32902583" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32902583" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -636,22 +349,24 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/JeopardyController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="486">
+          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+          <folding>
+            <marker date="1426624682087" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1426624682087" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426624682087" expanded="true" signature="-1:-1" placeholder=" Display the info about Jeopardy! ..." />
+            <marker date="1426624682087" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426624682087" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/support.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="353" max-vertical-offset="1008">
           <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
-          <folding>
-            <marker date="1425338262767" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1425338262767" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1425338262767" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1425338262767" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1425338262767" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1425338262767" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1425338262767" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1425338262767" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1425338262767" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1425338262767" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -666,13 +381,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4417178" vertical-offset="0" max-vertical-offset="978">
           <caret line="24" column="78" selection-start-line="24" selection-start-column="78" selection-end-line="24" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Composer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.8220859" vertical-offset="876" max-vertical-offset="1854">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -715,20 +423,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.41576508" vertical-offset="1423" max-vertical-offset="2160">
           <caret line="103" column="0" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/depotwarehouse/oauth2-bnet/src/Provider/BattleNet.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5285935" vertical-offset="54" max-vertical-offset="1440">
-          <caret line="25" column="55" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/depotwarehouse/oauth2-bnet/src/FrameworkIntegration/Laravel/BattleNetOAuth2ServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24884081" vertical-offset="145" max-vertical-offset="846">
-          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -804,20 +498,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="664">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/depotwarehouse/toolbox/src/DataManagement/Repositories/ActiveRepositoryAbstract.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16954474" vertical-offset="0" max-vertical-offset="1836">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/depotwarehouse/toolbox/src/DataManagement/Validation/NullValidator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11302983" vertical-offset="0" max-vertical-offset="637">
-          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -916,7 +596,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6453202" vertical-offset="435" max-vertical-offset="2790">
           <caret line="46" column="56" selection-start-line="46" selection-start-column="56" selection-end-line="46" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -952,18 +631,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3767661" vertical-offset="30" max-vertical-offset="1008">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <marker date="1425338262767" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1425338262767" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1425338262767" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1425338262767" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1425338262767" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1425338262767" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1425338262767" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1425338262767" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1425338262767" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1425338262767" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -971,137 +638,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.48364007" vertical-offset="2497" max-vertical-offset="9558">
           <caret line="165" column="3" selection-start-line="165" selection-start-column="3" selection-end-line="165" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/JeopardyController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.50163937" vertical-offset="0" max-vertical-offset="610">
+          <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
           <folding>
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426276259770" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426624682087" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1426624682087" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426624682087" expanded="true" signature="-1:-1" placeholder=" Display the info about Jeopardy! ..." />
+            <marker date="1426624682087" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426624682087" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/jeopardy/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27724358" vertical-offset="961" max-vertical-offset="1944">
-          <caret line="63" column="89" selection-start-line="63" selection-start-column="89" selection-end-line="63" selection-end-column="89" />
-          <folding>
-            <marker date="1426276413220" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1426276413220" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1426276413220" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1426276413220" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1426276413220" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1426276413220" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1426276413220" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1426276413220" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1426276413220" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1426276413220" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1426276413220" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1426276413220" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1426276413220" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1426276413220" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1426276413220" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1426276413220" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1426276413220" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1426276413220" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1426276413220" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1426276413220" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1426276413220" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1426276413220" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1426276413220" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1426276413220" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/JeopardyController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45211932" vertical-offset="0" max-vertical-offset="637">
-          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.22948074" vertical-offset="1339" max-vertical-offset="1944">
+          <caret line="82" column="62" selection-start-line="82" selection-start-column="62" selection-end-line="82" selection-end-column="62" />
           <folding />
         </state>
       </provider>
