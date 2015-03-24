@@ -17,7 +17,7 @@ class JeopardyController extends Controller
      */
     public function index()
     {
-        $next_show = new Carbon("March 24, 2015 7PM", new DateTimeZone('America/Edmonton'));
+        $next_show = new Carbon("March 31, 2015 7PM", new DateTimeZone('America/Edmonton'));
         return View::make('jeopardy.index')
             ->with('next_show', $next_show);
     }

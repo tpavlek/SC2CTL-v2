@@ -53,10 +53,11 @@
             <h2>TBD</h2>
         @endif
 
-
+        @if (isset($next_show))
         <div class="pure-g">
             <div class="pure-u-1 pure-u-md-1-3">
-                <div class="contestant">
+                <h3>TBD</h3>
+                <div class="contestant" style="display: none;">
                     <img src="/img/jeopardy/3/contestants/niceusername.jpg">
                     <a href="https://twitter.com/nice__username">@nice__username</a>
                     <p>
@@ -67,7 +68,8 @@
                 </div>
             </div>
             <div class="pure-u-1 pure-u-md-1-3">
-                <div class="contestant">
+                <h3>TBD</h3>
+                <div class="contestant" style="display:none;">
                     <img src="/img/jeopardy/3/contestants/jakatak.jpg">
                     <a href="https://twitter.com/JaKaTaKtv">@JaKaTaKtv</a>
                     <p>
@@ -90,6 +92,7 @@
                 </div>
             </div>
         </div>
+        @endif
 
 
     </section>
