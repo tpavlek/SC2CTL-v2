@@ -55,6 +55,8 @@
 
         @if (isset($next_show))
             @include('jeopardy.shows.4')
+        @else
+            @include('jeopardy.shows.tbd')
         @endif
 
 

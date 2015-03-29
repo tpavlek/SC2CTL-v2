@@ -25,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/jeopardy/index.blade.php">
+      <file leaf-file-name="JeopardyController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/JeopardyController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5929648" vertical-offset="654" max-vertical-offset="1332">
-              <caret line="56" column="38" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.47213113" vertical-offset="0" max-vertical-offset="612">
+              <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -40,7 +40,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/ViewComposers/Composer.php" />
         <option value="$PROJECT_DIR$/app/ViewComposers/ErrorPartialComposer.php" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/resources/views/login/login.blade.php" />
@@ -87,10 +86,11 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
         <option value="$PROJECT_DIR$/resources/views/support.blade.php" />
         <option value="$PROJECT_DIR$/resources/scss/style.scss" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/JeopardyController.php" />
         <option value="$PROJECT_DIR$/resources/views/jeopardy/shows/.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/jeopardy/shows/4.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/jeopardy/shows/tbd.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/jeopardy/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/JeopardyController.php" />
       </list>
     </option>
   </component>
@@ -348,7 +348,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="895" max-vertical-offset="1998">
           <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1427629795904" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427629795904" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427629795904" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427629795904" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427629795904" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427629795904" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427629795904" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427629795904" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427629795904" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427629795904" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427629795904" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427629795904" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427629795904" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427629795904" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -356,7 +371,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="895" max-vertical-offset="1944">
           <caret line="74" column="94" selection-start-line="74" selection-start-column="94" selection-end-line="74" selection-end-column="94" />
-          <folding />
+          <folding>
+            <marker date="1427629795904" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427629795904" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427629795904" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427629795904" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427629795904" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427629795904" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427629795904" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427629795904" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427629795904" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427629795904" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427629795904" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427629795904" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427629795904" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427629795904" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -364,7 +394,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1026" max-vertical-offset="1944">
           <caret line="101" column="5" selection-start-line="101" selection-start-column="5" selection-end-line="101" selection-end-column="5" />
-          <folding />
+          <folding>
+            <marker date="1427629795904" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427629795904" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427629795904" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427629795904" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427629795904" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427629795904" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427629795904" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427629795904" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427629795904" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427629795904" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427629795904" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427629795904" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427629795904" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427629795904" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -653,13 +698,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/JeopardyController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6196721" vertical-offset="0" max-vertical-offset="610">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/jeopardy/shows/3.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.59016395" vertical-offset="108" max-vertical-offset="756">
@@ -698,10 +736,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/jeopardy/shows/tbd.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08852459" vertical-offset="0" max-vertical-offset="610">
+          <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
+          <folding>
+            <marker date="1427629702394" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427629702394" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427629702394" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427629702394" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427629702394" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427629702394" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427629702394" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/jeopardy/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5929648" vertical-offset="654" max-vertical-offset="1332">
-          <caret line="56" column="38" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.6834171" vertical-offset="654" max-vertical-offset="1368">
+          <caret line="59" column="14" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
+          <folding>
+            <marker date="1427629795904" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427629795904" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427629795904" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427629795904" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427629795904" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427629795904" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427629795904" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427629795904" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427629795904" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427629795904" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427629795904" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427629795904" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427629795904" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427629795904" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/JeopardyController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47213113" vertical-offset="0" max-vertical-offset="612">
+          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
           <folding />
         </state>
       </provider>
