@@ -40,6 +40,8 @@ Route::group( [ 'before' => 'auth' ], function () {
 });
 
 Route::get('/', [ 'as' => 'home.index', "uses" => 'HomeController@index' ]);
+Route::get('vod', function() { return Redirect::to('http://vods.sc2ctl.com'); });
+Route::get('vods', function() { return Redirect::to('http://vods.sc2ctl.com'); });
 Route::get('contact', [ 'as' => 'home.contact', "uses" => 'HomeController@contact' ]);
 Route::get('about', [ 'as' => 'home.about', 'uses' => 'HomeController@about' ]);
 Route::get('support_us', [ 'as' => 'home.support_us', 'uses' => 'HomeController@support' ]);
