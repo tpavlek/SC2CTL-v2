@@ -4,7 +4,7 @@ Route::group([ 'namespace' => 'Auth' ], function() {
     Route::get('login', [ 'as' => 'user.login', 'uses' => 'AuthController@login' ]);
     Route::post('logout', [ 'as' => 'user.logout', 'uses' => 'AuthController@logout' ]);
     Route::post('auth', [ 'as' => 'user.auth', 'uses' => 'AuthController@auth' ]);
-    Route::get('register', [ 'as' => 'user.register', 'uses' => 'AuthController@register' ]);
+
     Route::get('login/reset/begin', [ 'as' => 'reminder.start_reset', 'uses' => 'ReminderController@start_reset' ]);
     Route::post('login/reset/send_token', [ 'as' => 'reminder.send_token', 'uses' => 'ReminderController@send_token' ]);
     Route::get('login/reset/finalize_password/{token}', [ 'as' => 'reminder.finalize_password', 'uses' => 'ReminderController@finalize_password' ]);
@@ -14,6 +14,18 @@ Route::group([ 'namespace' => 'Auth' ], function() {
     Route::get('bnet_auth', [ 'as' => 'bnet.auth', 'uses' => "BNetAuthController@bnet_auth" ]);
     Route::get('bnet_disconnect', [ 'as' => 'bnet.disconnect', 'uses' => "BNetAuthController@bnet_disconnect" ]);
 });
+
+get('register', [ 'as' => 'user.register', 'uses' => 'UserController@register' ]);
+post('register', [ 'as' => 'user.store', 'uses' => 'UserController@store' ]);
+
+put('user/{user_id}/contact_record', [ 'as' => 'user.contact_record.update', 'uses' => 'ContactRecordController@update' ]);
+
+Route::group([ 'namespace' => 'Meetup' ], function() {
+    get('meetup/{name}', [ 'as' => 'meetup.show', 'uses' => 'MeetupController@show' ]);
+    get('meetup/{name}/join', [ 'as' => 'meetup.join', 'uses' => 'MeetupController@join' ]);
+    post('meetup/{name}/join', [ 'as' => 'meetup.attend', 'uses' => 'MeetupController@attend' ]);
+});
+
 
 
 

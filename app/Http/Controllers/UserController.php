@@ -45,6 +45,16 @@ class UserController extends Controller
     }
 
     /**
+     * Displays the register form.
+     *
+     * @return \Illuminate\View\View
+     */
+    public function register()
+    {
+        return View::make('login.register');
+    }
+
+    /**
      * Save a user record to the database.
      *
      * @param Guard $auth

@@ -4,6 +4,7 @@ namespace Depotwarehouse\SC2CTL\Web\Model\User\Eloquent;
 
 use Config;
 use Depotwarehouse\SC2CTL\Web\Model\BaseModel;
+use Depotwarehouse\SC2CTL\Web\Model\ContactRecord\ContactRecord;
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Contracts\Auth\CanResetPassword;
 use Illuminate\Database\Eloquent\SoftDeletes;
@@ -40,6 +41,11 @@ class User extends BaseModel implements Authenticatable, CanResetPassword
     public function team()
     {
         return $this->belongsToMany(Team::class, 'team_enrollments', 'team_id', 'id');
+    }
+
+    public function contact_record()
+    {
+        return $this->hasOne(ContactRecord::class, 'user_id', 'id');
     }
 
     public function hasTeam()

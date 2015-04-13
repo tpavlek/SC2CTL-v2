@@ -8,7 +8,7 @@
 		"laravel/framework": "5.0.*",
 		"barryvdh/laravel-ide-helper": "~2.0",
 		"illuminate/html": "~5.0",
-		"depotwarehouse/toolbox": "~2.0.1",
+		"depotwarehouse/toolbox": "~2.1.0",
 		"intervention/image": "~2.1",
 		"depotwarehouse/oauth2-bnet": "~2.0.1",
 		"guzzlehttp/guzzle": "~4.0"

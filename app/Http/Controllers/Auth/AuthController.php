@@ -68,14 +68,4 @@ class AuthController extends Controller
         return Redirect::route('home.index');
     }
 
-    /**
-     * Displays the register form.
-     *
-     * @return \Illuminate\View\View
-     */
-    public function register()
-    {
-        return View::make('login.register');
-    }
-
 }
