@@ -24,6 +24,7 @@ class ShareRequests extends Migration {
             $table->foreign('requestee')->references('id')->on('users');
 
             $table->string('share_data');
+            $table->boolean('accepted');
 
             $table->timestamps();
             $table->softDeletes();

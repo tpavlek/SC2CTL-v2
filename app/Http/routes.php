@@ -21,9 +21,12 @@ post('register', [ 'as' => 'user.store', 'uses' => 'UserController@store' ]);
 put('user/{user_id}/contact_record', [ 'as' => 'user.contact_record.update', 'uses' => 'ContactRecordController@update' ]);
 
 Route::group([ 'namespace' => 'Meetup' ], function() {
-    get('meetup/{name}', [ 'as' => 'meetup.show', 'uses' => 'MeetupController@show' ]);
-    get('meetup/{name}/join', [ 'as' => 'meetup.join', 'uses' => 'MeetupController@join' ]);
-    post('meetup/{name}/join', [ 'as' => 'meetup.attend', 'uses' => 'MeetupController@attend' ]);
+    get('meetup/{slug}', [ 'as' => 'meetup.show', 'uses' => 'MeetupController@show' ]);
+    get('meetup/{slug}/join', [ 'as' => 'meetup.join', 'uses' => 'MeetupController@join' ]);
+    post('meetup/{slug}/join', [ 'as' => 'meetup.attend', 'uses' => 'MeetupController@attend' ]);
+
+    get('meetup/{meetup_slug}/attendee/{user_name}', [ 'as' => 'meetup.user.show', 'uses' => 'MeetupUserController@show' ]);
+    post('meetup/{meetup_slug}/attendee/{user_name}/request', [ 'as' => 'meetup.share', 'uses' => 'MeetupUserController@share' ]);
 });
 
 

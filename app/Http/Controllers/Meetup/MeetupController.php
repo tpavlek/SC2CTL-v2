@@ -15,7 +15,7 @@ class MeetupController extends Controller
     public function __construct(MeetupRepository $meetupRepository)
     {
         $this->meetupRepository = $meetupRepository;
-        $this->middleware('auth', [ 'except' => "join" ]);
+        $this->middleware('auth', [ 'except' => "show" ]);
     }
 
     /**
@@ -24,25 +24,25 @@ class MeetupController extends Controller
      * @param $name
      * @return \Illuminate\View\View
      */
-    public function join($name)
+    public function join($slug)
     {
-        $meetup = $this->meetupRepository->findByName($name);
+        $meetup = $this->meetupRepository->findByName($slug);
 
         return view('meetup.join')->with('meetup', $meetup);
     }
 
-    public function attend($name, Guard $auth, Redirector $redirector)
+    public function attend($slug, Guard $auth, Redirector $redirector)
     {
-        $meetup = $this->meetupRepository->findByName($name);
+        $meetup = $this->meetupRepository->findByName($slug);
 
         $meetup->attendees()->attach($auth->user()->id);
 
-        return $redirector->route('meetup.show', $name);
+        return $redirector->route('meetup.show', $slug);
     }
 
-    public function show($name)
+    public function show($slug)
     {
-        $meetup = $this->meetupRepository->findByName($name);
+        $meetup = $this->meetupRepository->findByName($slug);
 
         return view('meetup.show')->with('meetup', $meetup);
     }

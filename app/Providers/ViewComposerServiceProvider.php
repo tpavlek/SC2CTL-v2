@@ -4,6 +4,7 @@ namespace Depotwarehouse\SC2CTL\Web\Providers;
 
 use Depotwarehouse\SC2CTL\Web\ViewComposers\ErrorPartialComposer;
 use Depotwarehouse\SC2CTL\Web\ViewComposers\MeetupShowComposer;
+use Depotwarehouse\SC2CTL\Web\ViewComposers\MeetupUserShowViewComposer;
 use Depotwarehouse\SC2CTL\Web\ViewComposers\UserEditComposer;
 use Depotwarehouse\SC2CTL\Web\ViewComposers\UserShowComposer;
 use Illuminate\Contracts\View\Factory;
@@ -18,6 +19,7 @@ class ViewComposerServiceProvider extends ServiceProvider
         $view->composer('user.show', UserShowComposer::class);
         $view->composer('user.edit', UserEditComposer::class);
         $view->composer('meetup.show', MeetupShowComposer::class);
+        $view->composer('meetup.user.show', MeetupUserShowViewComposer::class);
     }
 
     /**

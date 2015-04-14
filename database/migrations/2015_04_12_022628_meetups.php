@@ -15,6 +15,7 @@ class Meetups extends Migration {
 		Schema::create('meetups', function (Blueprint $table) {
             $table->increments('id');
 
+            $table->string('slug')->unique();
             $table->string('name');
             $table->date('date');
             $table->string('location');

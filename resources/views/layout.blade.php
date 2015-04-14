@@ -24,6 +24,9 @@
                             <a href="{{ URL::route('jeopardy') }}">Jeopardy!</a>
                         </li>
                         <li>
+                            <a href="{{ URL::route('meetup.show', 'toronto') }}">TORONTO</a>
+                        </li>
+                        <li>
                             <a href="http://reddit.com/r/sc2ctl">Subreddit</a>
                         </li>
                         <li>

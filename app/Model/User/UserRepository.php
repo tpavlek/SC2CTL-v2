@@ -64,4 +64,15 @@ class UserRepository extends ActiveRepositoryAbstract
     {
         return $this->model->newQuery()->where('email', $email)->firstOrFail();
     }
+
+    /**
+     * Find a user by their username.
+     *
+     * @param $username
+     * @return User
+     */
+    public function findByUsername($username)
+    {
+        return $this->model->newQuery()->where('username', $username)->firstOrFail();
+    }
 }

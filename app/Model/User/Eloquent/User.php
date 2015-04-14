@@ -48,6 +48,29 @@ class User extends BaseModel implements Authenticatable, CanResetPassword
         return $this->hasOne(ContactRecord::class, 'user_id', 'id');
     }
 
+    public function contact_shares_requested()
+    {
+        return $this->belongsToMany(User::class, 'share_requests', 'requester', 'requestee')
+            ->withTimestamps()
+            ->withPivot([ 'meetup_id', 'share_data', 'accepted' ]);
+    }
+
+    public function contact_shares_received()
+    {
+        return $this->belongsToMany(User::class, 'share_requests', 'requestee', 'requester')
+            ->withTimestamps()
+            ->withPivot([ 'meetup_id', 'share_data', 'accepted' ]);
+    }
+
+    public function getAllContactFields()
+    {
+        $contact = $this->contact_record;
+
+        if ($contact == null) { return []; }
+
+        return $contact->allFields();
+    }
+
     public function hasTeam()
     {
         return $this->team()->count() > 0;
