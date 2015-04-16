@@ -25,8 +25,10 @@ Route::group([ 'namespace' => 'Meetup' ], function() {
     get('meetup/{slug}/join', [ 'as' => 'meetup.join', 'uses' => 'MeetupController@join' ]);
     post('meetup/{slug}/join', [ 'as' => 'meetup.attend', 'uses' => 'MeetupController@attend' ]);
 
+    get('meetup/{slug}/leave', [ 'as' => 'meetup.leave', 'uses' => 'MeetupUserController@leave_event' ]);
     get('meetup/{meetup_slug}/attendee/{user_name}', [ 'as' => 'meetup.user.show', 'uses' => 'MeetupUserController@show' ]);
     post('meetup/{meetup_slug}/attendee/{user_name}/request', [ 'as' => 'meetup.share', 'uses' => 'MeetupUserController@share' ]);
+    post('meetup/shares/{id}/accept', [ 'as' => 'meetup.share.accept', 'uses' => 'MeetupUserController@accept_share' ]);
 });
 
 

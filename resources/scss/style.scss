@@ -48,6 +48,39 @@ header.navigation {
 
 }
 
+nav.meetup-nav {
+  background: $highlight-color;
+
+  ul {
+    margin: 0;
+    list-style-type: none;
+
+    li {
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      display: inline-block;
+      border-right: 1px solid darken($highlight-color, 20%);
+
+
+
+      a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 200%;
+      }
+
+
+    }
+
+    li:hover {
+      background: lighten($highlight-color, 20%);
+    }
+  }
+}
+
 .content-wrapper {
   height: 100%;
 }

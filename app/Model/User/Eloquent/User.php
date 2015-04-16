@@ -5,6 +5,7 @@ namespace Depotwarehouse\SC2CTL\Web\Model\User\Eloquent;
 use Config;
 use Depotwarehouse\SC2CTL\Web\Model\BaseModel;
 use Depotwarehouse\SC2CTL\Web\Model\ContactRecord\ContactRecord;
+use Depotwarehouse\SC2CTL\Web\Model\Meetup\Meetup;
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Contracts\Auth\CanResetPassword;
 use Illuminate\Database\Eloquent\SoftDeletes;
@@ -52,14 +53,24 @@ class User extends BaseModel implements Authenticatable, CanResetPassword
     {
         return $this->belongsToMany(User::class, 'share_requests', 'requester', 'requestee')
             ->withTimestamps()
-            ->withPivot([ 'meetup_id', 'share_data', 'accepted' ]);
+            ->withPivot([ 'id', 'meetup_id', 'share_data', 'accepted' ]);
     }
 
     public function contact_shares_received()
     {
         return $this->belongsToMany(User::class, 'share_requests', 'requestee', 'requester')
             ->withTimestamps()
-            ->withPivot([ 'meetup_id', 'share_data', 'accepted' ]);
+            ->withPivot([ 'id', 'meetup_id', 'share_data', 'accepted' ]);
+    }
+
+    public function meetups()
+    {
+        return $this->belongsToMany(Meetup::class, 'meetup_attendees', 'user_id', 'meetup_id');
+    }
+
+    public function getAllAvailableContactFields()
+    {
+        return ContactRecord::allAvailableFields();
     }
 
     public function getAllContactFields()

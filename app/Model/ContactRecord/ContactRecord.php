@@ -17,9 +17,23 @@ class ContactRecord extends Model
         return $this->belongsTo(User::class, 'user_id', 'id');
     }
 
+    public function getEmailAttribute($value)
+    {
+        if (!$value) {
+            return $this->user->email;
+        }
+
+        return $value;
+    }
+
+    public static function allAvailableFields()
+    {
+        return [ "first_name", "last_name", "email", "snapchat", "skype", "cell_phone", "twitter" ];
+    }
+
     public function allFields()
     {
-        $values = [];
+        $values = [ ];
         if ($this->email) {
             $values['email'] = $this->email;
         }

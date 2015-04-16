@@ -31,6 +31,8 @@ class MeetupUserShowViewComposer extends Composer
 
             $errorBag->add('warn', "Please login/register in order to share contact information with this user");
             $view->with('errors', $errorBag);
+        } else {
+
         }
     }
 }

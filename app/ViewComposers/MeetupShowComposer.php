@@ -36,7 +36,7 @@ class MeetupShowComposer extends Composer
             if ($meetup->isAttending($this->auth->user())) {
                 $page_actions[] = [
                     'name' => "Leave Event (delete all shares)",
-                    'url' => '#'
+                    'url' => URL::route('meetup.leave', $meetup->slug)
                 ];
             } else {
                 $page_actions[] = [
