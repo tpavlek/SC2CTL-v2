@@ -48,7 +48,11 @@ class UserRepository extends ActiveRepositoryAbstract
         // Throws a ValidationException if validation fails
         $this->validator->updateValidate($attributes, $id);
 
-        $attributes['password'] = Hash::make($attributes['password']);
+        // If we're updating a password, we need to hash it.
+        if (isset($attributes['password'])) {
+            $attributes['password'] = Hash::make($attributes['password']);
+        }
+
 
         $object->update($attributes);
     }

@@ -25,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MeetupRepository.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Model/Meetup/MeetupRepository.php">
+      <file leaf-file-name="UserRepository.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Model/User/UserRepository.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5952756" vertical-offset="0" max-vertical-offset="635">
-              <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+            <state vertical-scroll-proportion="0.5448819" vertical-offset="482" max-vertical-offset="1512">
+              <caret line="50" column="60" selection-start-line="50" selection-start-column="60" selection-end-line="50" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -72,7 +72,6 @@
         <option value="$PROJECT_DIR$/database/migrations/2015_04_12_023422_share_requests.php" />
         <option value="$PROJECT_DIR$/database/migrations/2015_04_12_022628_meetups.php" />
         <option value="$PROJECT_DIR$/resources/views/layout.blade.php" />
-        <option value="$PROJECT_DIR$/app/Model/User/UserRepository.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Meetup/MeetupUserControl.php" />
         <option value="$PROJECT_DIR$/app/Model/MeetupAttendance.php" />
         <option value="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" />
@@ -91,6 +90,7 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/Meetup/MeetupUserController.php" />
         <option value="$PROJECT_DIR$/resources/views/meetup/user/show.blade.php" />
         <option value="$PROJECT_DIR$/app/Model/Meetup/MeetupRepository.php" />
+        <option value="$PROJECT_DIR$/app/Model/User/UserRepository.php" />
       </list>
     </option>
   </component>
@@ -474,11 +474,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="31" width="1926" height="1052" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33633634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33633634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -542,13 +542,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7093596" vertical-offset="0" max-vertical-offset="684">
-          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2015_04_12_012748_create_bnet_users.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7635468" vertical-offset="291" max-vertical-offset="954">
@@ -674,13 +667,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0591133" vertical-offset="0" max-vertical-offset="2106">
-          <caret line="2" column="52" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1182266" vertical-offset="0" max-vertical-offset="1386">
@@ -784,14 +770,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.42519686" vertical-offset="0" max-vertical-offset="635">
           <caret line="21" column="79" selection-start-line="21" selection-start-column="79" selection-end-line="21" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Model/User/UserRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48188975" vertical-offset="54" max-vertical-offset="1440">
-          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1173,8 +1151,72 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Model/Meetup/MeetupRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5952756" vertical-offset="0" max-vertical-offset="635">
-          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.6519685" vertical-offset="0" max-vertical-offset="635">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <marker date="1429201327569" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429201327569" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429201327569" expanded="true" signature="-1:-1" placeholder=" @param $name ..." />
+            <marker date="1429201327569" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.62362206" vertical-offset="1404" max-vertical-offset="2106">
+          <caret line="105" column="37" selection-start-line="105" selection-start-column="37" selection-end-line="105" selection-end-column="37" />
+          <folding>
+            <marker date="1429038708326" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1429038708326" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429038708326" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429038708326" expanded="true" signature="-1:-1" placeholder=" Returns a paginated list of all the users. ..." />
+            <marker date="1429038708326" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429038708326" expanded="true" signature="-1:-1" placeholder=" Show the page for a particular user. ..." />
+            <marker date="1429038708326" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429038708326" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429038708326" expanded="true" signature="-1:-1" placeholder=" Displays the register form. ..." />
+            <marker date="1429038708326" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429038708326" expanded="true" signature="-1:-1" placeholder=" Save a user record to the database. ..." />
+            <marker date="1429038708326" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429038708326" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429038708326" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429038708326" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429038708326" expanded="true" signature="-1:-1" placeholder=" Show the form to edit a user's properties. ..." />
+            <marker date="1429038708326" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429038708326" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429038708326" expanded="true" signature="-1:-1" placeholder=" Updates a user's properties. ..." />
+            <marker date="1429038708326" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429038708326" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429038708326" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429038708326" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Model/User/UserValidator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4472441" vertical-offset="382" max-vertical-offset="1044">
+          <caret line="38" column="27" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
+          <folding>
+            <marker date="1424975046066" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1424975046066" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424975046066" expanded="true" signature="-1:-1" placeholder=" Validates the input based on creating a new object ..." />
+            <marker date="1424975046066" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424975046066" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1424975046066" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1424975046066" expanded="true" signature="-1:-1" placeholder=" Validates the input based on updating an existing object ..." />
+            <marker date="1424975046066" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424975046066" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1424975046066" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Model/User/UserRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5448819" vertical-offset="482" max-vertical-offset="1512">
+          <caret line="50" column="60" selection-start-line="50" selection-start-column="60" selection-end-line="50" selection-end-column="60" />
           <folding />
         </state>
       </provider>
