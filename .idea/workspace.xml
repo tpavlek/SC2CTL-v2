@@ -25,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="join.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/meetup/join.blade.php">
+      <file leaf-file-name="JeopardyController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/JeopardyController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.503888" vertical-offset="0" max-vertical-offset="643">
-              <caret line="18" column="63" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
+            <state vertical-scroll-proportion="0.4535433" vertical-offset="0" max-vertical-offset="635">
+              <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -40,9 +40,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/resources/views/sponsors/mythlogic.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/sponsors/patreon.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/sponsors.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/login/register.blade.php" />
         <option value="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2015_04_12_012713_create_teams.php" />
@@ -61,7 +58,6 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ContactRecordController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Controller.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/JeopardyController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/UserController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/BNetAuthController.php" />
@@ -74,16 +70,13 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/Meetup/MeetupUserControl.php" />
         <option value="$PROJECT_DIR$/app/Model/MeetupAttendance.php" />
         <option value="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Meetup/MeetupController.php" />
         <option value="$PROJECT_DIR$/app/Providers/ViewComposerServiceProvider.php" />
         <option value="$PROJECT_DIR$/resources/views/meetup/show.blade.php" />
         <option value="$PROJECT_DIR$/app/Model/BaseModel.php" />
         <option value="$PROJECT_DIR$/app/ViewComposers/MeetupUserShowViewComposer.php" />
         <option value="$PROJECT_DIR$/app/Model/ShareRequest.php" />
-        <option value="$PROJECT_DIR$/resources/views/meetup/layout.blade.php" />
         <option value="$PROJECT_DIR$/resources/scss/style.scss" />
         <option value="$PROJECT_DIR$/app/Model/ContactRecord/ContactRecord.php" />
-        <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/app/Model/User/Eloquent/User.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Meetup/MeetupUserController.php" />
         <option value="$PROJECT_DIR$/resources/views/meetup/user/show.blade.php" />
@@ -91,6 +84,13 @@
         <option value="$PROJECT_DIR$/app/Model/User/UserRepository.php" />
         <option value="$PROJECT_DIR$/app/ViewComposers/MeetupShowComposer.php" />
         <option value="$PROJECT_DIR$/resources/views/meetup/join.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/resources/views/meetup/layout.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/meetup/help.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Meetup/MeetupController.php" />
+        <option value="$PROJECT_DIR$/resources/views/jeopardy/shows/6.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/jeopardy/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/JeopardyController.php" />
       </list>
     </option>
   </component>
@@ -192,7 +192,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="meetup" />
+              <option name="myItemId" value="jeopardy" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -214,11 +214,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="meetup" />
+              <option name="myItemId" value="jeopardy" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="user" />
+              <option name="myItemId" value="shows" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -410,9 +410,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/jeopardy/shows" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/resources/views/sponsors" />
-      <recent name="$PROJECT_DIR$/resources/views/jeopardy/shows" />
       <recent name="$PROJECT_DIR$/resources/views/emails" />
       <recent name="$PROJECT_DIR$/resources/views/errors" />
     </key>
@@ -474,11 +474,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="31" width="1926" height="1052" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33633634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32832834" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33633634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32832834" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3993994" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -542,28 +542,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/database/migrations/2015_04_12_012748_create_bnet_users.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7635468" vertical-offset="291" max-vertical-offset="954">
-          <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4870912" vertical-offset="5909" max-vertical-offset="12060">
-          <caret line="345" column="7" selection-start-line="345" selection-start-column="7" selection-end-line="345" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Model/ContactRecord/ContactRecordValidator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6896552" vertical-offset="30" max-vertical-offset="828">
-          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/depotwarehouse/toolbox/src/DataManagement/Validation/ValidationException.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.55829227" vertical-offset="2" max-vertical-offset="648">
@@ -660,13 +638,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/JeopardyController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0591133" vertical-offset="0" max-vertical-offset="612">
-          <caret line="2" column="52" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1182266" vertical-offset="0" max-vertical-offset="1386">
@@ -752,13 +723,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Meetup/MeetupController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48976377" vertical-offset="139" max-vertical-offset="936">
-          <caret line="28" column="61" selection-start-line="28" selection-start-column="61" selection-end-line="28" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Providers/ViewComposerServiceProvider.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.42519686" vertical-offset="0" max-vertical-offset="635">
@@ -778,14 +742,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.42519686" vertical-offset="0" max-vertical-offset="635">
           <caret line="17" column="75" selection-start-line="17" selection-start-column="75" selection-end-line="17" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/meetup/show.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6456693" vertical-offset="94" max-vertical-offset="846">
-          <caret line="28" column="60" selection-start-line="28" selection-start-column="60" selection-end-line="28" selection-end-column="60" />
           <folding />
         </state>
       </provider>
@@ -843,20 +799,6 @@
             <marker date="1429196948369" expanded="true" signature="-1:-1" placeholder="{...}" />
             <marker date="1429196948369" expanded="true" signature="-1:-1" placeholder="..." />
             <marker date="1429196948369" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/meetup/layout.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22245108" vertical-offset="0" max-vertical-offset="971">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <marker date="1429198331529" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429198331529" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429198331529" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429198331529" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429198331529" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1020,25 +962,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.798951" vertical-offset="29" max-vertical-offset="1476">
-          <caret line="27" column="100" selection-start-line="27" selection-start-column="100" selection-end-line="27" selection-end-column="100" />
-          <folding>
-            <marker date="1429200238159" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429200238159" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429200238159" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429200238159" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429200238159" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429200238159" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429200238159" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429200238159" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429200238159" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429200238159" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Model/User/Eloquent/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7167832" vertical-offset="832" max-vertical-offset="2322">
@@ -1090,35 +1013,6 @@
             <marker date="1429200609652" expanded="true" signature="-1:-1" placeholder="{...}" />
             <marker date="1429200609652" expanded="true" signature="-1:-1" placeholder="{...}" />
             <marker date="1429200609652" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/meetup/user/show.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35858586" vertical-offset="309" max-vertical-offset="1746">
-          <caret line="29" column="135" selection-start-line="29" selection-start-column="135" selection-end-line="29" selection-end-column="135" />
-          <folding>
-            <marker date="1429200709052" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429200709052" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429200709052" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429200709052" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1429200709052" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429200709052" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429200709052" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429200709052" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429200709052" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429200709052" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429200709052" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429200709052" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429200709052" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1429200709052" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429200709052" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429200709052" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429200709052" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429200709052" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1429200709052" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1429200709052" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -1230,8 +1124,176 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/meetup/join.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.503888" vertical-offset="0" max-vertical-offset="643">
-          <caret line="18" column="63" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
+        <state vertical-scroll-proportion="0.41990668" vertical-offset="0" max-vertical-offset="643">
+          <caret line="15" column="68" selection-start-line="15" selection-start-column="68" selection-end-line="15" selection-end-column="68" />
+          <folding>
+            <marker date="1429201772025" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429201772025" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429201772025" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429201772025" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/meetup/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.02021773" vertical-offset="41" max-vertical-offset="846">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+          <folding>
+            <marker date="1429042767329" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429042767329" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429042767329" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429042767329" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429042767329" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429042767329" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429042767329" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429042767329" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/meetup/user/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5562701" vertical-offset="1112" max-vertical-offset="1746">
+          <caret line="81" column="38" selection-start-line="81" selection-start-column="38" selection-end-line="81" selection-end-column="38" />
+          <folding>
+            <marker date="1429200709052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429200709052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429200709052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429200709052" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1429200709052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429200709052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429200709052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429200709052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429200709052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429200709052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429200709052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429200709052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429200709052" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1429200709052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429200709052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429200709052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429200709052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429200709052" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429200709052" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429200709052" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6062992" vertical-offset="29" max-vertical-offset="1494">
+          <caret line="23" column="85" selection-start-line="23" selection-start-column="85" selection-end-line="23" selection-end-column="85" />
+          <folding>
+            <marker date="1429202513005" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429202513005" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429202513005" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429202513005" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429202513005" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429202513005" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429202513005" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429202513005" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429202513005" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429202513005" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/meetup/help.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6519685" vertical-offset="162" max-vertical-offset="810">
+          <caret line="32" column="135" selection-start-line="32" selection-start-column="135" selection-end-line="32" selection-end-column="135" />
+          <folding>
+            <marker date="1429203050619" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429203050619" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429203050619" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429203050619" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429203050619" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429203050619" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429203050619" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429203050619" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/meetup/layout.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5102362" vertical-offset="0" max-vertical-offset="635">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+          <folding>
+            <marker date="1429202651135" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429202651135" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429202651135" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429202651135" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429202651135" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Meetup/MeetupController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14173229" vertical-offset="0" max-vertical-offset="1026">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <marker date="1429203122529" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1429203122529" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429203122529" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429203122529" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429203122529" expanded="true" signature="-1:-1" placeholder=" Show the form to allow the user to join this event. ..." />
+            <marker date="1429203122529" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429203122529" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429203122529" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/jeopardy/shows/6.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.73700786" vertical-offset="0" max-vertical-offset="738">
+          <caret line="26" column="68" selection-start-line="26" selection-start-column="68" selection-end-line="26" selection-end-column="68" />
+          <folding>
+            <marker date="1429204507422" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429204507422" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429204507422" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429204507422" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429204507422" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429204507422" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429204507422" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429204507422" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429204507422" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429204507422" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/jeopardy/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36334404" vertical-offset="746" max-vertical-offset="1368">
+          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding>
+            <marker date="1429204536339" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429204536339" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429204536339" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429204536339" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429204536339" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429204536339" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429204536339" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429204536339" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429204536339" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429204536339" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429204536339" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429204536339" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429204536339" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429204536339" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/JeopardyController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4535433" vertical-offset="0" max-vertical-offset="635">
+          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
           <folding />
         </state>
       </provider>

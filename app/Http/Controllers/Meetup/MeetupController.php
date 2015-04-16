@@ -5,6 +5,7 @@ namespace Depotwarehouse\SC2CTL\Web\Http\Controllers\Meetup;
 use Depotwarehouse\SC2CTL\Web\Http\Controllers\Controller;
 use Depotwarehouse\SC2CTL\Web\Model\Meetup\MeetupRepository;
 use Illuminate\Auth\Guard;
+use Illuminate\Contracts\View\Factory;
 use Illuminate\Routing\Redirector;
 
 class MeetupController extends Controller
@@ -15,7 +16,12 @@ class MeetupController extends Controller
     public function __construct(MeetupRepository $meetupRepository)
     {
         $this->meetupRepository = $meetupRepository;
-        $this->middleware('auth', [ 'except' => "show" ]);
+        $this->middleware('auth', [ 'except' => [ "show", "help" ] ]);
+    }
+
+    public function help(Factory $view)
+    {
+        return $view->make('meetup.help')->with('meetup', $this->meetupRepository->findByName('toronto'));
     }
 
     /**
