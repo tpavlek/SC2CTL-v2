@@ -25,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="UserRepository.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Model/User/UserRepository.php">
+      <file leaf-file-name="join.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/meetup/join.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5448819" vertical-offset="482" max-vertical-offset="1512">
-              <caret line="50" column="60" selection-start-line="50" selection-start-column="60" selection-end-line="50" selection-end-column="60" />
+            <state vertical-scroll-proportion="0.503888" vertical-offset="0" max-vertical-offset="643">
+              <caret line="18" column="63" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -67,7 +67,6 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/BNetAuthController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/ReminderController.php" />
         <option value="$PROJECT_DIR$/app/Model/Meetup/Meetup.php" />
-        <option value="$PROJECT_DIR$/resources/views/meetup/join.blade.php" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/database/migrations/2015_04_12_023422_share_requests.php" />
         <option value="$PROJECT_DIR$/database/migrations/2015_04_12_022628_meetups.php" />
@@ -84,13 +83,14 @@
         <option value="$PROJECT_DIR$/resources/views/meetup/layout.blade.php" />
         <option value="$PROJECT_DIR$/resources/scss/style.scss" />
         <option value="$PROJECT_DIR$/app/Model/ContactRecord/ContactRecord.php" />
-        <option value="$PROJECT_DIR$/app/ViewComposers/MeetupShowComposer.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/app/Model/User/Eloquent/User.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Meetup/MeetupUserController.php" />
         <option value="$PROJECT_DIR$/resources/views/meetup/user/show.blade.php" />
         <option value="$PROJECT_DIR$/app/Model/Meetup/MeetupRepository.php" />
         <option value="$PROJECT_DIR$/app/Model/User/UserRepository.php" />
+        <option value="$PROJECT_DIR$/app/ViewComposers/MeetupShowComposer.php" />
+        <option value="$PROJECT_DIR$/resources/views/meetup/join.blade.php" />
       </list>
     </option>
   </component>
@@ -474,25 +474,25 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="31" width="1926" height="1052" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33633634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33633634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32832834" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3993994" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24739583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3993994" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32832834" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32882413" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -703,13 +703,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/meetup/join.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5320197" vertical-offset="0" max-vertical-offset="609">
-          <caret line="18" column="101" selection-start-line="18" selection-start-column="97" selection-end-line="18" selection-end-column="101" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.19033232" vertical-offset="0" max-vertical-offset="662">
@@ -793,6 +786,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6456693" vertical-offset="94" max-vertical-offset="846">
           <caret line="28" column="60" selection-start-line="28" selection-start-column="60" selection-end-line="28" selection-end-column="60" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1026,26 +1020,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/ViewComposers/MeetupShowComposer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9055944" vertical-offset="364" max-vertical-offset="990">
-          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-          <folding>
-            <marker date="1429200178255" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1429200178255" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1429200178255" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1429200178255" expanded="true" signature="-1:-1" placeholder=" Handles the content of the view and composes any required data. ..." />
-            <marker date="1429200178255" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1429200178255" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429200178255" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429200178255" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429200178255" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429200178255" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429200178255" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.798951" vertical-offset="29" max-vertical-offset="1476">
@@ -1215,8 +1189,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Model/User/UserRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5448819" vertical-offset="482" max-vertical-offset="1512">
-          <caret line="50" column="60" selection-start-line="50" selection-start-column="60" selection-end-line="50" selection-end-column="60" />
+        <state vertical-scroll-proportion="0.5660964" vertical-offset="482" max-vertical-offset="1512">
+          <caret line="51" column="45" selection-start-line="51" selection-start-column="45" selection-end-line="51" selection-end-column="45" />
+          <folding>
+            <marker date="1429201642882" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1429201642882" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429201642882" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429201642882" expanded="true" signature="-1:-1" placeholder=" Create a new user record (including hashing of the password). ..." />
+            <marker date="1429201642882" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429201642882" expanded="true" signature="-1:-1" placeholder=" @param mixed $id ..." />
+            <marker date="1429201642882" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429201642882" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429201642882" expanded="true" signature="-1:-1" placeholder=" Finds a user by their Email address. ..." />
+            <marker date="1429201642882" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429201642882" expanded="true" signature="-1:-1" placeholder=" Find a user by their username. ..." />
+            <marker date="1429201642882" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ViewComposers/MeetupShowComposer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5940902" vertical-offset="320" max-vertical-offset="990">
+          <caret line="43" column="68" selection-start-line="43" selection-start-column="68" selection-end-line="43" selection-end-column="68" />
+          <folding>
+            <marker date="1429201729005" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1429201729005" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429201729005" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429201729005" expanded="true" signature="-1:-1" placeholder=" Handles the content of the view and composes any required data. ..." />
+            <marker date="1429201729005" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429201729005" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429201729005" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429201729005" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429201729005" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429201729005" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429201729005" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/meetup/join.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.503888" vertical-offset="0" max-vertical-offset="643">
+          <caret line="18" column="63" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
           <folding />
         </state>
       </provider>

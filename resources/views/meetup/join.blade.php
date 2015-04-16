@@ -13,10 +13,10 @@ Join {{ $meetup->name }}
             up and will request to meet you. They will be sorely disappointed if you do not show up after all.
         </p>
 
-        {!! Form::open([ 'route' => [ 'meetup.attend', $meetup->name ], 'method' => 'POST', 'class' => 'pure-form' ]) !!}
+        {!! Form::open([ 'route' => [ 'meetup.attend', $meetup->slug ], 'method' => 'POST', 'class' => 'pure-form' ]) !!}
 
             <input type="submit" class="button success" value="Confirm Attendance" />
-            <a href="{{ URL::route('meetup.show', $meetup->name) }}" class="button cancel">Cancel</a>
+            <a href="{{ URL::route('meetup.show', $meetup->slug) }}" class="button cancel">Cancel</a>
         {!! Form::close() !!}
     </div>
 @stop

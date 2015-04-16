@@ -41,7 +41,7 @@ class MeetupShowComposer extends Composer
             } else {
                 $page_actions[] = [
                     'name' => 'Join Event',
-                    'url' => URL::route('meetup.join', $meetup->name)
+                    'url' => URL::route('meetup.join', $meetup->slug)
                 ];
             }
         }
