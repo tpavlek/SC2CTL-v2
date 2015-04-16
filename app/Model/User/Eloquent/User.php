@@ -124,6 +124,6 @@ class User extends BaseModel implements Authenticatable, CanResetPassword
      */
     public function getEmailForPasswordReset()
     {
-        return $this->email;
+        return $this->getAttribute("email");
     }
 }

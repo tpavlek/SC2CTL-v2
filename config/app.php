@@ -142,6 +142,7 @@ return [
         'Depotwarehouse\SC2CTL\Web\Providers\EventServiceProvider',
         'Depotwarehouse\SC2CTL\Web\Providers\RouteServiceProvider',
         Depotwarehouse\SC2CTL\Web\Providers\ViewComposerServiceProvider::class,
+        Depotwarehouse\SC2CTL\Web\Providers\ModelObserverServiceProvider::class,
 
 
     ],

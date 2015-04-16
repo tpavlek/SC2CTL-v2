@@ -10,9 +10,9 @@ class BaseModel extends Model
 {
     public function newPivot(Model $parent, array $attributes, $table, $exists)
     {
-        if (($parent instanceof User || $parent instanceof Meetup) && $table == "meetup_attendees") {
+        /*if (($parent instanceof User || $parent instanceof Meetup) && $table == "meetup_attendees") {
             return new MeetupAttendance($parent, $attributes, $table, $exists);
-        }
+        }*/
 
         if (($parent instanceof User || $parent instanceof Meetup) && $table == "share_requests") {
             return new ShareRequest($parent, $attributes, $table, $exists);
