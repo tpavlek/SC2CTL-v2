@@ -2,6 +2,7 @@
 
 namespace Depotwarehouse\SC2CTL\Web\Http\Controllers\Meetup;
 
+use Depotwarehouse\SC2CTL\Web\Events\ShareRequestEvent;
 use Depotwarehouse\SC2CTL\Web\Http\Controllers\Controller;
 use Depotwarehouse\SC2CTL\Web\Model\Meetup\MeetupRepository;
 use Depotwarehouse\SC2CTL\Web\Model\ShareRequest;
@@ -62,6 +63,8 @@ class MeetupUserController extends Controller
         $user = $this->userRepository->findByUsername($user_name);
 
         \Auth::user()->contact_shares_requested()->attach($user->id, [ 'meetup_id' => $meetup->id, 'share_data' => $contactstring ]);
+        $model = \Auth::user()->contact_shares_requested()->where('requestee', $user->id)->wherePivot('meetup_id', $meetup->id)->first()->pivot;
+        event(new ShareRequestEvent($model));
         return redirect()->route('meetup.user.show', [ $meetup_slug, $user_name ]);
     }
 

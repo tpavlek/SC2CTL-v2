@@ -1,6 +1,8 @@
 <?php namespace Depotwarehouse\SC2CTL\Web\Providers;
 
 use App;
+use Depotwarehouse\SC2CTL\Web\Events\ShareRequestEvent;
+use Depotwarehouse\SC2CTL\Web\Handlers\Events\ShareRequestMailer;
 use Depotwarehouse\SC2CTL\Web\Model\User\Eloquent\PasswordReminder;
 use Illuminate\Contracts\Events\Dispatcher as DispatcherContract;
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
@@ -13,6 +15,7 @@ class EventServiceProvider extends ServiceProvider {
 	 * @var array
 	 */
 	protected $listen = [
+        ShareRequestEvent::class => [ ShareRequestMailer::class ]
 	];
 
 	/**
