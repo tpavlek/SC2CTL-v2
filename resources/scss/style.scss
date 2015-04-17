@@ -53,19 +53,21 @@ nav.meetup-nav {
 
   ul {
     margin: 0;
+    padding: 0;
     list-style-type: none;
 
     li {
-      padding-top: 2rem;
-      padding-bottom: 2rem;
-      padding-left: 1rem;
-      padding-right: 1rem;
+      margin: 0;
       display: inline-block;
-      border-right: 1px solid darken($highlight-color, 20%);
-
 
 
       a {
+        display: inline-block;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+
         text-decoration: none;
         color: white;
         font-weight: bold;

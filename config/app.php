@@ -131,6 +131,7 @@ return [
         Depotwarehouse\Toolbox\FrameworkIntegration\Laravel\ToolboxServiceProvider::class,
         Intervention\Image\ImageServiceProvider::class,
         \Depotwarehouse\OAuth2\Client\FrameworkIntegration\Laravel\BattleNetOAuth2ServiceProvider::class,
+        Intervention\Image\ImageServiceProvider::class,
 
 
         /*

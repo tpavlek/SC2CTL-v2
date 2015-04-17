@@ -14,8 +14,8 @@ Meetup Help
         <h2>Usage steps</h2>
         <ol>
             <li>Register an account if you don't have one or login on <a href="{{ URL::route('user.login') }}">the login page</a>.</li>
-            <li>In the navigation menu, click your username to go to your profile page.</li>
-            <li>In the navigation menu, click "Edit Profile" under "Page Actions" and fill in any contact information you wish to share.</li>
+            <li>In the navigation menu on the left, click your username to go to your profile page.</li>
+            <li>In the navigation menu on the left, click "Edit Profile" under "Page Actions" and fill in any contact information you wish to share.</li>
             <li>In the navigation menu click "TORONTO".</li>
             <li>If you are attending, click "Join Event" (you must be logged in for this) and confirm your attendance.</li>
             <li>

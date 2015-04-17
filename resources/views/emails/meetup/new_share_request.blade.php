@@ -13,4 +13,7 @@ You have received a new share request!
     @endforelse
 </ul>
 
-You can accept this share request at {{ URL::route('meetup.user.show', [ $shareRequest->meetup->slug, $shareRequest->get_requestee->username ]) }}.
+You can accept this share request at
+<a href="{{ URL::route('meetup.user.show', [ $shareRequest->meetup->slug, $shareRequest->get_requestee->username ]) }}">
+    {{ URL::route('meetup.user.show', [ $shareRequest->meetup->slug, $shareRequest->get_requestee->username ]) }}
+</a>.
