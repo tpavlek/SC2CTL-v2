@@ -25,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ControllerDispatcher.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php">
+      <file leaf-file-name="help.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/meetup/help.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3479021" vertical-offset="989" max-vertical-offset="5400">
-              <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.4090909" vertical-offset="0" max-vertical-offset="918">
+              <caret line="13" column="113" selection-start-line="13" selection-start-column="113" selection-end-line="13" selection-end-column="113" />
               <folding />
             </state>
           </provider>
@@ -85,12 +85,12 @@
         <option value="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" />
         <option value="$PROJECT_DIR$/app/Handlers/Events/ShareRequestMailer.php" />
         <option value="$PROJECT_DIR$/resources/views/help.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/meetup/help.blade.php" />
         <option value="$PROJECT_DIR$/config/app.php" />
         <option value="$PROJECT_DIR$/resources/views/meetup/layout.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/emails/meetup/new_share_request.blade.php" />
         <option value="$PROJECT_DIR$/resources/scss/style.scss" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/AssetController.php" />
+        <option value="$PROJECT_DIR$/resources/views/meetup/help.blade.php" />
       </list>
     </option>
   </component>
@@ -407,7 +407,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="31" width="1920" height="1049" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -416,7 +416,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24739583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24739583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3993994" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32832834" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1003,23 +1003,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/meetup/help.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18881118" vertical-offset="0" max-vertical-offset="810">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-          <folding>
-            <marker date="1429293902422" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429293902422" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429293902422" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429293902422" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429293902422" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429293902422" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429293902422" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1429293902422" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/emails/meetup/new_share_request.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.48188975" vertical-offset="0" max-vertical-offset="635">
@@ -1254,8 +1237,65 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3479021" vertical-offset="989" max-vertical-offset="5400">
-          <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.4090909" vertical-offset="0" max-vertical-offset="5400">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+          <folding>
+            <marker date="1428111297000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1428111297000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1428111297000" expanded="true" signature="-1:-1" placeholder=" The router instance. ..." />
+            <marker date="1428111297000" expanded="true" signature="-1:-1" placeholder=" The IoC container instance. ..." />
+            <marker date="1428111297000" expanded="true" signature="-1:-1" placeholder=" Create a new controller dispatcher instance. ..." />
+            <marker date="1428111297000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428111297000" expanded="true" signature="-1:-1" placeholder=" Dispatch a request to a given controller and method. ..." />
+            <marker date="1428111297000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428111297000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428111297000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1428111297000" expanded="true" signature="-1:-1" placeholder=" Make a controller instance via the IoC container. ..." />
+            <marker date="1428111297000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428111297000" expanded="true" signature="-1:-1" placeholder=" Call the given controller instance method. ..." />
+            <marker date="1428111297000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428111297000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1428111297000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1428111297000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1428111297000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428111297000" expanded="true" signature="-1:-1" placeholder=" Get the middleware for the controller instance. ..." />
+            <marker date="1428111297000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428111297000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428111297000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428111297000" expanded="true" signature="-1:-1" placeholder=" Determine if the given options exclude a particular method. ..." />
+            <marker date="1428111297000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428111297000" expanded="true" signature="-1:-1" placeholder=" Call the given controller instance method. ..." />
+            <marker date="1428111297000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428111297000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1428111297000" expanded="true" signature="-1:-1" placeholder=" Call the &quot;before&quot; filters for the controller. ..." />
+            <marker date="1428111297000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428111297000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428111297000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428111297000" expanded="true" signature="-1:-1" placeholder=" Apply the applicable after filters to the route. ..." />
+            <marker date="1428111297000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428111297000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428111297000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428111297000" expanded="true" signature="-1:-1" placeholder=" Get the assignable after filter for the route. ..." />
+            <marker date="1428111297000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428111297000" expanded="true" signature="-1:-1" placeholder=" Determine if the given filter applies to the request. ..." />
+            <marker date="1428111297000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428111297000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428111297000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428111297000" expanded="true" signature="-1:-1" placeholder=" Determine if the filter fails the method constraints. ..." />
+            <marker date="1428111297000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428111297000" expanded="true" signature="-1:-1" placeholder=" Determine if the filter fails the &quot;on&quot; constraint. ..." />
+            <marker date="1428111297000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428111297000" expanded="true" signature="-1:-1" placeholder=" Call the given controller filter method. ..." />
+            <marker date="1428111297000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428111297000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/meetup/help.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4090909" vertical-offset="0" max-vertical-offset="918">
+          <caret line="13" column="113" selection-start-line="13" selection-start-column="113" selection-end-line="13" selection-end-column="113" />
           <folding />
         </state>
       </provider>

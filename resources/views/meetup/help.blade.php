@@ -8,6 +8,12 @@ Meetup Help
     <h1 class="section-header">Help with the meetup tool</h1>
     <div class="section">
         <p>
+            This tool has a couple features: "Profiles" which you can fill out with your common contact details like
+            email, twitter, skype and even cell phone no. and then a list of attendees who have committed to attending the
+            conference. You can then share any number of your profile fields with these users so you have both a list of
+            people you would like to meet in Toronto, as well as some contact information to facilitate doing so!
+        </p>
+        <p>
             The meetup tool is fairly straightforward and simple, but this document will help guide your use of it.
         </p>
 
