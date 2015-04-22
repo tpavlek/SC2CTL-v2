@@ -17,7 +17,7 @@ class JeopardyController extends Controller
      */
     public function index()
     {
-        $next_show = new Carbon("April 21, 2015 7PM", new DateTimeZone('America/Edmonton'));
+        $next_show = new Carbon("May 5, 2015 7PM", new DateTimeZone('America/Edmonton'));
 
         // If we've passed the next show date, we don't want to include it in the view.
         if (Carbon::now(new DateTimeZone('America/Edmonton'))->lt($next_show)) {
