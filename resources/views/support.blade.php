@@ -15,6 +15,34 @@
         <hr />
 
         <div class="referral">
+            <h2>Contribute Via Paypal</h2>
+            <p>
+                The easiest way to support us is to just pitch in a couple bucks and help us do new and adventurous things.
+            </p>
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="3GPAA26B868NQ">
+                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>
+        </div>
+
+        <hr />
+
+        <div class="referral">
+            <h2>PATREON</h2>
+            <p>
+                We have a Patreon page that allows you to commit to paying for each episode of Starcraft Jeopardy as it
+                is released. That way you only pay when you're getting high-quality content in return, but it allows us
+                to more accurately assess cashflow so we can try new and interesting projects.
+            </p>
+
+            <a href="https://patreon.com/sc2ctl" class="button">Become a Patron</a>
+        </div>
+
+        <hr />
+
+        <div class="referral">
             <h2>Digital Ocean</h2>
             <p>
                 Digital Ocean is a cloud hosting platform. All SC2CTL properties are hosted on Digital Ocean - not only are
