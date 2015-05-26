@@ -43,22 +43,22 @@
     </section>
 
     <section class="jeopardy section">
-        <h1>Next Show</h1>
-        @if (isset($next_show))
-            <h2>{{ $next_show->timezone(new DateTimeZone('America/Detroit'))->toDayDateTimeString() }} Eastern</h2>
-            <h3>{{ $next_show->timezone(new DateTimeZone('America/Edmonton'))->toDayDateTimeString() }} Mountain</h3>
-            <h3>{{ $next_show->timezone(new DateTimeZone('UTC'))->toDayDateTimeString() }} UTC</h3>
-            <h3>{{ $next_show->timezone(new DateTimeZone('KST'))->toDayDateTimeString() }} KST</h3>
-        @else
-            <h2>TBD</h2>
-        @endif
+        <h1>Upcoming Shows</h1>
+        @forelse($shows as $show_number => $show_date)
+            <h2>{{ $show_date->timezone(new DateTimeZone('America/Detroit'))->toDayDateTimeString() }} Eastern</h2>
+            <h3>{{ $show_date->timezone(new DateTimeZone('America/Edmonton'))->toDayDateTimeString() }} Mountain</h3>
+            <h3>{{ $show_date->timezone(new DateTimeZone('UTC'))->toDayDateTimeString() }} UTC</h3>
+            <h3>{{ $show_date->timezone(new DateTimeZone('KST'))->toDayDateTimeString() }} KST</h3>
 
-        @if (isset($next_show))
-            @include('jeopardy.shows.8')
-        @else
+            @if (View::exists("jeopardy.shows.{$show_number}"))
+                @include("jeopardy.shows.{$show_number}")
+            @else
+                @include("jeopardy.shows.tbd")
+            @endif
+            <hr />
+        @empty
             @include('jeopardy.shows.tbd')
-        @endif
-
+        @endforelse
 
     </section>
 

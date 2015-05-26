@@ -5,6 +5,7 @@ namespace Depotwarehouse\SC2CTL\Web\Http\Controllers;
 use Carbon\Carbon;
 use DateTime;
 use DateTimeZone;
+use Illuminate\Support\Collection;
 use View;
 
 class JeopardyController extends Controller
@@ -17,15 +18,17 @@ class JeopardyController extends Controller
      */
     public function index()
     {
-        $next_show = new Carbon("May 12, 2015 7PM", new DateTimeZone('America/Edmonton'));
+        // A list of upcoming shows that we add.
+        $shows = new Collection([
+            10 => new Carbon("June 2, 2015 7PM", new DateTimeZone('America/Edmonton')),
+            11 => new Carbon("June 16, 2015 7PM", new DateTimeZone('America/Edmonton'))
+        ]);
 
-        // If we've passed the next show date, we don't want to include it in the view.
-        if (Carbon::now(new DateTimeZone('America/Edmonton'))->lt($next_show)) {
-            return View::make('jeopardy.index')
-                ->with('next_show', $next_show);
-        }
+        // We only want to display shows that occur after the current time.
+        $shows = $shows->filter(function(Carbon $show) {
+            return Carbon::now(new DateTimeZone('America/Edmonton'))->lt($show);
+        });
 
-        return View::make('jeopardy.index');
-
+        return View::make('jeopardy.index')->with('shows', $shows);
     }
 }
