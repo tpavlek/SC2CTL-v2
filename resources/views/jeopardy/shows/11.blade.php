@@ -2,7 +2,7 @@
 <div class="pure-g">
     <div class="pure-u-1 pure-u-md-1-3">
         <div class="contestant">
-            <img src="/img/jeopardy/contestants/desrow.png">
+            <img src="/img/jeopardy/contestants/desrow.jpg">
             <a href="https://twitter.com/desrowfighting">desRow</a>
             <p>
                 Marc-Olivier "desRow" Proulx is a professional Starcraft 2 Streamer and host of the weekly talk show
