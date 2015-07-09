@@ -20,6 +20,8 @@ post('register', [ 'as' => 'user.store', 'uses' => 'UserController@store' ]);
 
 put('user/{user_id}/contact_record', [ 'as' => 'user.contact_record.update', 'uses' => 'ContactRecordController@update' ]);
 
+
+/* // Meetups are disabled (it wasn't a great feature)
 Route::group([ 'namespace' => 'Meetup' ], function() {
     get('meetup/help', [ 'as' => 'meetup.help', 'uses' => 'MeetupController@help' ]);
     get('meetup/{slug}', [ 'as' => 'meetup.show', 'uses' => 'MeetupController@show' ]);
@@ -30,7 +32,7 @@ Route::group([ 'namespace' => 'Meetup' ], function() {
     get('meetup/{meetup_slug}/attendee/{user_name}', [ 'as' => 'meetup.user.show', 'uses' => 'MeetupUserController@show' ]);
     post('meetup/{meetup_slug}/attendee/{user_name}/request', [ 'as' => 'meetup.share', 'uses' => 'MeetupUserController@share' ]);
     post('meetup/shares/{id}/accept', [ 'as' => 'meetup.share.accept', 'uses' => 'MeetupUserController@accept_share' ]);
-});
+});*/
 
 
 
