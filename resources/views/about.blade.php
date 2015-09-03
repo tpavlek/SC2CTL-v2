@@ -9,15 +9,13 @@ About the League
 <div class="splash">
     <div class="content">
         <div class="buttons">
-            @if (Auth::check())
-                <a href="{{ URL::route('home.contact') }}" class="button">
-                    Connect with us
-                </a>
-            @else
-                <a href="{{ URL::route('user.register') }}" class="button">
-                    Register Now
-                </a>
-            @endif
+            <a href='http://www.teamliquid.net/forum/sc2-tournaments/494083-youmacon-2015-sc2-detroit-1000-prize-oct-31-nov1#1' class="button" style="font-size:300%">
+                YOUMACON DETROIT 2015
+            </a>
+            <br />
+            <a href="{{ URL::route('home.contact') }}" class="button">
+                Connect with us
+            </a>
             <br />
             <a href="{{ URL::route('help') }}" class="button">
                 Help
@@ -232,6 +230,39 @@ About the League
                     format.
                 </p>
                 <span class="date">March 3, 2015</span>
+            </div>
+        </div>
+
+        <div class="block">
+            <div class="img-container question">
+                <img src="/img/icon/question-man.svg" />
+            </div>
+            <div class="content">
+                <h2>Jeopardy episode 11 is last episode of regular broadcast</h2>
+                <p>
+                    In <a href="http://tpavlek.me/blog/2015/05/12/the-plan-for-scjeopardy/">
+                        a post on his blog
+                    </a>
+                    Troy outlines the plan for Starcraft Jeopardy, moving from a regular occurrence to an occasional special
+                    event.
+                </p>
+                <span class="date">June 6, 2015</span>
+            </div>
+        </div>
+
+        <div class="block">
+            <div class="img-container video">
+                <img src="/img/icon/camera.svg" />
+            </div>
+
+            <div class="content">
+                <h2>Youmacon 2015</h2>
+                <p>
+                    For yet another year, the team hosts <a href="http://www.teamliquid.net/forum/sc2-tournaments/494083-youmacon-2015-sc2-detroit-1000-prize-oct-31-nov1#1">
+                        Youmacon Detroit
+                    </a>
+                </p>
+                <span class="date">October 30, 2015</span>
             </div>
         </div>
 
